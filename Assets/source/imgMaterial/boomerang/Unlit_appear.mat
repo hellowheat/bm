@@ -44,10 +44,10 @@ Material:
     - _OutLightPow: 5
     - _OutLightStrength: 15
     - _RimScale: 0
-    - _RimSize: 5
+    - _RimSize: 1
     - _RimWidth: 4.76
     - _Size: 1.31
-    - _threshold: 0.9
+    - _threshold: 1
     m_Colors:
     - _AtmoColor: {r: 0, g: 0.4, b: 1, a: 1}
     - _Color: {r: 0, g: 0, b: 0, a: 1}

@@ -11,9 +11,11 @@ public class AtkLogic : MonoBehaviour
     public int initNumber;  //初始数量
     public float atkCD;//攻击cd
     public MeshRenderer centerArrow;//中心箭头
+    public MeshRenderer centerLoading;//中心加载
     [Header("boomerangUI")]
     public GameObject boomerangIcon;//飞镖图标
     public GameObject boomerangIconBox;//飞镖图标显示盒子
+    
     private float waitAtkTime;  //距离上次攻击时间
     private AnimatorStateInfo lastAnimatorStateInfo_2;//动画机第二层layer上个动画
     private AtkNumberControl atkNumberControl;//武器数量控制
@@ -41,6 +43,13 @@ public class AtkLogic : MonoBehaviour
                 animator.SetBool("atkRelease", false);
             }
         }
+
+        if (waitAtkTime < atkCD)
+        {
+            centerLoading.enabled = true;
+            centerLoading.material.SetFloat("_Progress", waitAtkTime / atkCD);
+        }
+        else if (centerLoading.enabled == true) centerLoading.enabled = false;
     }
 
     public void setParam(Animator animator, Transform character, GameObject forwardObject)
@@ -78,15 +87,20 @@ public class AtkLogic : MonoBehaviour
             {
                 boomerang.AttackPrepare();
                 centerArrow.enabled = true;
+                centerLoading.enabled = false;
                 isAtkPrepared = true;
-            }else
+            }
+            else
             {
                 boomerang.AttackPrepareHold();
             }
             return 0;
         }
-        else if (!atkNumberControl.hasNumber())return 1;//数量不够
-        else return 2;//cd不够
+        else if (!atkNumberControl.hasNumber()) return 1;//数量不够
+        else
+        {
+            return 2;//cd不够
+        }
     }
     public int AttackBtnRelease()
     {

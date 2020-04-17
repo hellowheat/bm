@@ -8,7 +8,7 @@ Shader "Unlit/appear"
     {
         _MainTex ("Texture", 2D) = "white" {}
         _VoiceTex("Texture",2D) = "white" {}
-        _threshold("threshold",Range(0,0.9)) = 0
+        _threshold("threshold",Range(0,1)) = 0
 
         _RimColor("rim color", Color) = (0, 0.4, 1.0, 1)    //光晕颜色
         _RimSize("rim size", Range(0,5)) = 1    //光晕颜色
@@ -44,9 +44,11 @@ Shader "Unlit/appear"
                float _RimSize;
                 v2f vert(appdata_base v){
                     v2f o;
-                    float3 n = (mul((float3x3)UNITY_MATRIX_IT_MV,v.normal));
+                   
                     float4 ve = mul(UNITY_MATRIX_MV,v.vertex);
-                    ve.xyz+=normalize(n)*_RimSize*length(ObjSpaceViewDir(v.vertex))*0.00001f;
+                    float3 n = (mul((float3x3)UNITY_MATRIX_IT_MV,v.normal));
+                   // ve.xyz+=normalize(n)*_RimSize*length(ObjSpaceViewDir(v.vertex))*0.00001f;
+                    ve.xyz+=normalize(n)*lerp(10,1,_threshold)*0.00005f*length(ObjSpaceViewDir(v.vertex))*_RimSize;
                     //ve.xyz+=normalize(n)*_RimSize*100;
                     o.vertex=mul(UNITY_MATRIX_P,ve);
                     o.normal=v.normal;
@@ -59,7 +61,7 @@ Shader "Unlit/appear"
 
                 fixed4 frag(v2f v):SV_Target{
                     fixed4 voiceCol=tex2D(_VoiceTex,v.uv);
-                    if (voiceCol.r > _threshold)v.col.a = 0;
+                    if (voiceCol.r > _threshold*0.9)v.col.a = 0;
                     else v.col.a = 1;
                     return v.col;
 				}

@@ -7,9 +7,9 @@ public class BoomerangController : MonoBehaviour
     public GameObject model;//模型
     public Transform displayTransform;//生成位置
     public Transform cameraLookPos;//屏幕中心
-    public float speed;     //初始速度
     public float bronTime;  //生成时间
     public float preAtkTime;//扔出硬直
+    public float speed;//扔出速度
 
     private Rigidbody rb;
     private MeshRenderer mr;
@@ -42,7 +42,9 @@ public class BoomerangController : MonoBehaviour
     public void AttackPrepareHold()
     {
         transform.position = displayTransform.position;
-        transform.forward = cameraLookPos.position - displayTransform.position;
+        Vector3 forward = cameraLookPos.position - displayTransform.position;
+        forward.y = 0;
+        transform.forward = forward;
 
     }
 
@@ -64,7 +66,18 @@ public class BoomerangController : MonoBehaviour
             yield return 0;
             waitTime += Time.deltaTime;
         }
-        rb.velocity = transform.forward * speed;
+       /* float sl = Vector3.Distance(cameraLookPos.position - new Vector3(0, cameraLookPos.position.y, 0), displayTransform.position - new Vector3(0, displayTransform.position.y, 0));
+        float su = cameraLookPos.position.y - displayTransform.position.y;
+        float a = -9.8f ;
+
+        //联立s=vt+at^2/2 ，0-v=at得-at^/2=s => t=sqrt(-2s/a)
+        float t = su > 0 ? Mathf.Sqrt(-2 * su / a) : 0.1f ;
+        float vl = sl / t;//水平速度
+        float vu = -a * t * (su>0?1:0);//向上速度
+        Debug.Log("time:" + t);
+        Vector3 velocity = (transform.forward-new Vector3(0,transform.forward.y,0)).normalized * vl;
+        velocity.y = vu;*/
+        rb.velocity = (cameraLookPos.position - displayTransform.position).normalized * speed;
         rb.useGravity = true;
         atkState = AtkState.fly;
         //rb.AddForce(transform.forward * speed, ForceMode.Force);
@@ -99,7 +112,7 @@ public class BoomerangController : MonoBehaviour
                 mt.SetFloat("_threshold", 1);
             }
         }
-        
+
        if(atkState == AtkState.wait)
         {
 

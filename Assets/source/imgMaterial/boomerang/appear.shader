@@ -48,8 +48,7 @@ Shader "Unlit/appear"
                     float4 ve = mul(UNITY_MATRIX_MV,v.vertex);
                     float3 n = (mul((float3x3)UNITY_MATRIX_IT_MV,v.normal));
                    // ve.xyz+=normalize(n)*_RimSize*length(ObjSpaceViewDir(v.vertex))*0.00001f;
-                    ve.xyz+=normalize(n)*lerp(10,1,_threshold)*0.00005f*length(ObjSpaceViewDir(v.vertex))*_RimSize;
-                    //ve.xyz+=normalize(n)*_RimSize*100;
+                    ve.xyz+=normalize(n)*lerp(10,1,saturate(_threshold/0.9))*0.00005f*length(ObjSpaceViewDir(v.vertex))*_RimSize;
                     o.vertex=mul(UNITY_MATRIX_P,ve);
                     o.normal=v.normal;
                     o.vertex.z-=0.001;
@@ -61,15 +60,15 @@ Shader "Unlit/appear"
 
                 fixed4 frag(v2f v):SV_Target{
                     fixed4 voiceCol=tex2D(_VoiceTex,v.uv);
-                    if (voiceCol.r > _threshold*0.9)v.col.a = 0;
-                    else v.col.a = 1;
+                    if (1-voiceCol.r > _threshold)v.col.a = 0;
+                    else v.col.a = saturate(_threshold/0.9);
                     return v.col;
 				}
                ENDCG
 			}
             Pass
             {
-             //   Cull Back
+                //Cull Back
                 CGPROGRAM
                 #pragma vertex vert
                 #pragma fragment frag
@@ -96,11 +95,19 @@ Shader "Unlit/appear"
                 sampler2D _VoiceTex;
                 float4 _MainTex_ST;
                 float _threshold;
+                float _RimSize;
 
                 v2f vert(appdata v)
                 {
                     v2f o;
-                    o.vertex = UnityObjectToClipPos(v.vertex);
+                   
+                    float4 ve = mul(UNITY_MATRIX_MV,v.vertex);
+                    float3 n = (mul((float3x3)UNITY_MATRIX_IT_MV,v.normal));
+                   // ve.xyz+=normalize(n)*_RimSize*length(ObjSpaceViewDir(v.vertex))*0.00001f;
+                    ve.xyz+=normalize(n)*lerp(10,1,saturate(_threshold/0.9))*0.00005f*length(ObjSpaceViewDir(v.vertex));
+                    o.vertex=mul(UNITY_MATRIX_P,ve);
+
+                   // o.vertex = UnityObjectToClipPos(v.vertex);
                     o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                     o.normal = mul(v.normal, (float3x3)unity_WorldToObject);
                     //UNITY_TRANSFER_FOG(o,o.vertex);
@@ -112,7 +119,7 @@ Shader "Unlit/appear"
                 {
                     fixed4 col = tex2D(_MainTex, i.uv);
                     fixed4 voiceCol = tex2D(_VoiceTex, i.uv);
-                    if (voiceCol.r > _threshold)col.a = 0;
+                    if (1-voiceCol.r > _threshold)col.a = 0;
                     else col.a = 1;
                     //UNITY_APPLY_FOG(i.fogCoord, col);
                     return col;

@@ -5,19 +5,21 @@ using UnityEngine;
 public class ObjectPool
 {
     GameObject preferb;
+    Transform parentObj;
     private List<GameObject> pools;
-    public ObjectPool(GameObject preferb)
+    public ObjectPool(GameObject preferb,Transform parentObj)
     {
         this.preferb = preferb;
+        this.parentObj = parentObj;
         pools = new List<GameObject>();    
     }
-    public GameObject create(Transform tsf, Transform parent = null)
+    public GameObject create(Transform tsf)
     {
         if(pools.Count == 0)
         {
             GameObject gbj = GameObject.Instantiate(preferb, tsf.position, tsf.rotation);
             gbj.SetActive(true);
-            gbj.transform.SetParent(parent);
+            gbj.transform.SetParent(parentObj.transform);
             return gbj;
         }
         else
@@ -26,17 +28,16 @@ public class ObjectPool
             pools.RemoveAt(0);
             gbj.transform.SetPositionAndRotation(tsf.position, tsf.rotation);
             gbj.SetActive(true);
-            gbj.transform.SetParent(parent);
             return gbj;
         }
     }
 
-    public GameObject createNotShow(Transform tsf, Transform parent = null)
+    public GameObject createNotShow(Transform tsf)
     {
         if (pools.Count == 0)
         {
             GameObject gbj = GameObject.Instantiate(preferb, tsf.position, tsf.rotation);
-            gbj.transform.SetParent(parent);
+            gbj.transform.SetParent(parentObj.transform);
             return gbj;
         }
         else
@@ -44,7 +45,6 @@ public class ObjectPool
             GameObject gbj = pools[0];
             pools.RemoveAt(0);
             gbj.transform.SetPositionAndRotation(tsf.position, tsf.rotation);
-            gbj.transform.SetParent(parent);
             return gbj;
         }
     }

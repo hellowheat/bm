@@ -32,7 +32,7 @@ public class CameraControl : MonoBehaviour
         if(see_v != 0 || see_h != 0)
         {
             Vector3 seeRotate = new Vector3(see_v * verticalViewAngle, see_h * horizontalViewAngle, 0) +forwardObject.localRotation.eulerAngles;
-            if (seeRotate.x > 180) seeRotate.x = 360 - seeRotate.x;
+            if (seeRotate.x > 180) seeRotate.x = seeRotate.x-360;
             seeRotate.x = Mathf.Max(-verticalViewAngle, Mathf.Min(verticalViewAngle, seeRotate.x));
             cameraCenter.localRotation = Quaternion.Euler(seeRotate);
         }

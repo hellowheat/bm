@@ -11,6 +11,14 @@ public class BoomerangController : MonoBehaviour
     public float preAtkTime;//扔出硬直
     public float speed;//扔出速度
 
+    [Header("TrackBall")]
+    public Transform ballBox;
+    public GameObject ballPrfb;
+    public float ballBronDis;
+    private ObjectPool ballPool;
+    private List<GameObject> balls;
+    private float lastBallBronTime;
+
     private Rigidbody rb;
     private MeshRenderer mr;
     private Material mt;
@@ -36,6 +44,7 @@ public class BoomerangController : MonoBehaviour
         mr.enabled = true;
         mt.SetFloat("_threshold", 0);
 
+        clearBall();
         atkState = AtkState.bron;
     }
 
@@ -94,7 +103,9 @@ public class BoomerangController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         mt = model.GetComponent<Renderer>().material;
         mr = model.GetComponent<MeshRenderer>();
+        ballPool = new ObjectPool(ballPrfb,ballBox);
         atkState = AtkState.rest;
+        balls = new List<GameObject>();
     }
 
 
@@ -113,10 +124,16 @@ public class BoomerangController : MonoBehaviour
             }
         }
 
-       if(atkState == AtkState.wait)
+        if (atkState == AtkState.fly && rb.velocity != Vector3.zero ) 
         {
-
+            if (lastBallBronTime > ballBronDis)
+            {
+                lastBallBronTime = 0;
+                balls.Add(ballPool.create(transform));
+            }
+            else lastBallBronTime += Time.deltaTime;
         }
+
     }
     private float waitTime = 0;
     private void OnCollisionStay(Collision collision)
@@ -129,8 +146,7 @@ public class BoomerangController : MonoBehaviour
 
     }
     private void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log(collision.transform.tag);
+    {;
         if(atkState == AtkState.fly && collision.transform.tag == "moster")
         {
             //碰撞到怪物
@@ -143,7 +159,17 @@ public class BoomerangController : MonoBehaviour
         {
             pick(collision.gameObject.GetComponent<AtkLogic>());
             atkState = AtkState.rest;
+            clearBall();
             mr.enabled = false;
         }
+    }
+
+    private void clearBall()
+    {
+        for(int i = 0; i < balls.Count; i++)
+        {
+            ballPool.destroy(balls[i]);
+        }
+        balls.Clear();
     }
 }

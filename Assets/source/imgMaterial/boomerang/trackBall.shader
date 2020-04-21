@@ -38,6 +38,7 @@
 
             v2f vert (appdata v)
             {
+                v.vertex+=normalize(v.vertex)*(length(ObjSpaceViewDir(v.vertex))/100);
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.col=_MainColor;

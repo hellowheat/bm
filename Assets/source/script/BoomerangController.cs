@@ -24,6 +24,7 @@ public class BoomerangController : MonoBehaviour
     private Material mt;
     private AtkState atkState;
     private float hasBronTime;
+    private bool isCollised;//飞行时发生了碰撞
 
     private enum AtkState
     {
@@ -89,7 +90,7 @@ public class BoomerangController : MonoBehaviour
         rb.velocity = (cameraLookPos.position - displayTransform.position).normalized * speed;
         rb.useGravity = true;
         atkState = AtkState.fly;
-        //rb.AddForce(transform.forward * speed, ForceMode.Force);
+        isCollised = false;
     }
 
     void pick(AtkLogic atkL)
@@ -132,8 +133,11 @@ public class BoomerangController : MonoBehaviour
                 balls.Add(ballPool.create(transform));
             }
             else lastBallBronTime += Time.deltaTime;
+
+            if(!isCollised) transform.forward = rb.velocity.normalized;
         }
 
+        
     }
     private float waitTime = 0;
     private void OnCollisionStay(Collision collision)
@@ -146,8 +150,9 @@ public class BoomerangController : MonoBehaviour
 
     }
     private void OnCollisionEnter(Collision collision)
-    {;
-        if(atkState == AtkState.fly && collision.transform.tag == "moster")
+    {
+        isCollised = true;
+        if (atkState == AtkState.fly && collision.transform.tag == "moster")
         {
             //碰撞到怪物
         }else if(atkState == AtkState.fly && collision.transform.tag == "ground")

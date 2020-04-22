@@ -5,6 +5,7 @@ using UnityEngine;
 public class BoomerangController : MonoBehaviour
 {
     public GameObject model;//模型
+    public ParticleSystem particle;//粒子系统
     public Transform displayTransform;//生成位置
     public Transform cameraLookPos;//屏幕中心
     public float bronTime;  //生成时间
@@ -33,20 +34,23 @@ public class BoomerangController : MonoBehaviour
     }
     public void AttackPrepare()
     {
+        //初始化武器刚体及位置
         rb.useGravity = false;
         rb.velocity = Vector3.zero;
         rb.freezeRotation = true;
         rb.freezeRotation = false;
-
         transform.position = displayTransform.position;
         transform.forward = cameraLookPos.position - displayTransform.position;
 
+        //初始化变量
         hasBronTime = 0;
         mr.enabled = true;
         mt.SetFloat("_threshold", 0);
-
-        clearBall();
         atkState = AtkState.bron;
+
+        //初始化场景特效
+        clearBall();
+        particle.Play();
     }
 
     public void AttackPrepareHold()
@@ -60,6 +64,7 @@ public class BoomerangController : MonoBehaviour
 
     public void AttackStart()
     {
+        particle.Stop();
 
         mt.SetFloat("_threshold", 1);
         rb.velocity = Vector3.zero;
@@ -98,7 +103,6 @@ public class BoomerangController : MonoBehaviour
         atkL.pickBoomerang();
         mr.enabled = false;
     }
-
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -136,7 +140,6 @@ public class BoomerangController : MonoBehaviour
 
             if(!isCollised) transform.forward = rb.velocity.normalized;
         }
-
         
     }
     private float waitTime = 0;

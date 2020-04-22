@@ -48,7 +48,7 @@ Shader "Unlit/appear"
                     float4 ve = mul(UNITY_MATRIX_MV,v.vertex);
                     float3 n = (mul((float3x3)UNITY_MATRIX_IT_MV,v.normal));
                    // ve.xyz+=normalize(n)*_RimSize*length(ObjSpaceViewDir(v.vertex))*0.00001f;
-                    ve.xyz+=normalize(n)*lerp(10,1,saturate(_threshold/0.9))*0.00005f*length(ObjSpaceViewDir(v.vertex))*_RimSize;
+                    ve.xyz+=normalize(n)*0.00005f*length(ObjSpaceViewDir(v.vertex))*_RimSize;
                     o.vertex=mul(UNITY_MATRIX_P,ve);
                     o.normal=v.normal;
                     o.vertex.z-=0.001;
@@ -104,7 +104,7 @@ Shader "Unlit/appear"
                     float4 ve = mul(UNITY_MATRIX_MV,v.vertex);
                     float3 n = (mul((float3x3)UNITY_MATRIX_IT_MV,v.normal));
                    // ve.xyz+=normalize(n)*_RimSize*length(ObjSpaceViewDir(v.vertex))*0.00001f;
-                    ve.xyz+=normalize(n)*lerp(10,1,saturate(_threshold/0.9))*0.00005f*length(ObjSpaceViewDir(v.vertex));
+                    ve.xyz+=normalize(n)*0.00005f*length(ObjSpaceViewDir(v.vertex));
                     o.vertex=mul(UNITY_MATRIX_P,ve);
 
                    // o.vertex = UnityObjectToClipPos(v.vertex);

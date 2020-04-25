@@ -25,6 +25,7 @@ public class AtkLogic : MonoBehaviour
 
     void Start()
     {
+        
         isAtkPrepared = false;
         waitAtkTime = 10;
         atkNumberControl = new AtkNumberControl(boomerangIcon,boomerangIconBox,initNumber);

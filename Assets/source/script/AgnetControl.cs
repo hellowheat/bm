@@ -22,7 +22,6 @@ public class AgnetControl : MonoBehaviour
             if(hit.collider != null)
             {
                 agent.SetDestination(hit.point);
-//                agent.destination = hit.point;
             }
         }
     }

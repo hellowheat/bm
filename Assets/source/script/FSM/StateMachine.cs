@@ -5,44 +5,66 @@ using UnityEngine;
 public class StateMachine
 {
     // Start is called before the first frame update
-    private Dictionary<string, FSMState> states;
-    private FSMState lastState { get; set; }
-    private FSMState currentState { get; set; }
+    private List<FSMState> states;
+    private FSMState lastState;
+    public FSMState currentState;
 
     public StateMachine()
     {
-        states = new Dictionary<string, FSMState>();
+        states = new List<FSMState>();
         lastState = null;
         currentState = null;
     }
 
-    public void Add(string stateString,FSMState state)
+    public void Add(FSMState state)
     {
-        states.Add(stateString, state);
-        if (states.Count == 1) TranslateState(stateString);
+        states.Add(state);
+        if (states.Count == 1) TranslateState(state.stateString);
     }
 
     public void TranslateState(string str)
     {
-        if (states.ContainsKey(str))
+        if(currentState == null || str != currentState.stateString)
         {
-            FSMState newState = states[str];
-            if (currentState != newState)
+            foreach(FSMState state in states)
             {
-                if (currentState != null)
+                if(state.stateString == str && currentState != state)
                 {
-                    currentState.OnExit();
-                    lastState = currentState;
+                    if (currentState != null)
+                    {
+                        currentState.OnExit();
+                        lastState = currentState;
+                    }
+                    currentState = state;
+                    currentState.OnEnter();
+                    break;
                 }
-                currentState = states[str];
-                currentState.OnEnter();
             }
-
         }
+        
     }
 
     public void Update()
     {
-        if (currentState != null)currentState.OnHold();
+        if (currentState != null) currentState.OnHold();
+        if (currentState.CanChange())
+        {
+            TranslateState(currentState.ChangeString());
+        }
+
+        //强制进入某状态
+        foreach (FSMState state in states)
+        {
+            if (currentState != state && state.CanEnter())
+            {
+                TranslateState(state.stateString);
+                break;
+            }
+        }
+    }
+
+    public bool isCurrentState(string str)
+    {
+        return str == currentState.stateString;
     }
 }

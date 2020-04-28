@@ -16,11 +16,9 @@ public class AvatarStateManager : MonoBehaviour
     void Update()
     {
         stateMachine.Update();
-        updateState();
     }
 
-    virtual protected void init(){}
-    virtual protected void updateState() {}
+    virtual protected void init() { }
 
 
 }

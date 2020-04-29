@@ -1255,7 +1255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391747361}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.93, y: 7.6079655, z: -24.82}
+  m_LocalPosition: {x: -2.911, y: 7.6079655, z: -24.345}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1345,6 +1345,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 455351482}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1828874968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828874967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04f34a7bb9104548a712b35494ecb68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeLimit: 0
 --- !u!114 &1828874970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1359,8 +1372,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trackMap: {fileID: 297408280}
   atkObject: {fileID: 1391747361}
-  seeRadius: 5
-  seeAngle: 45
+  patrolSpeed: 2
+  seeRadius: 8
+  seeAngle: 60
+  feelRadius: 1
+  allowLoseTime: 2
+  followSpeed: 4
+  atkDamage: 12
+  atkRadius: 3
+  atkAngle: 30
+  atkCD: 2
+  atkPre: 0.5
+  findTime: 5
+  findAngle: 120
 --- !u!195 &1828874972
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1372,7 +1396,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 2
-  m_Acceleration: 4
+  m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 360
   m_StoppingDistance: 0

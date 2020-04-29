@@ -55,7 +55,7 @@ public class StateMachine
         //强制进入某状态
         foreach (FSMState state in states)
         {
-            if (currentState != state && state.CanEnter())
+            if (currentState != state && state.CanEnter(currentState))
             {
                 TranslateState(state.stateString);
                 break;

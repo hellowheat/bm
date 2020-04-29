@@ -17,14 +17,14 @@ public class FSMState
     }
     virtual public void OnEnter()
     {
-        //Debug.Log(stateString + " enter");
+        Debug.Log(stateString + " enter");
         changeString = stateName;
         animator.SetTrigger(stateName);
     }
     virtual public void OnHold() { }
     virtual public void OnExit() { }
     virtual public bool CanChange() { return false; }
-    virtual public bool CanEnter() { return false; }
+    virtual public bool CanEnter(FSMState currentState) { return false; }
     virtual public string ChangeString() { return changeString; }
 
 
@@ -41,6 +41,13 @@ public class staticFunction
         if (param > angle) return false;//角度不够
         if (Physics.Linecast(gameObject.transform.position, goalObject.transform.position, ~(1 << 8)))
             return false;//有遮挡
+        return true;
+    }
+
+    public static bool canFeelObject(GameObject gameObject, GameObject goalObject, float feelRadius)
+    {
+        float param = Vector3.Distance(gameObject.transform.position, goalObject.transform.position);
+        if (param > feelRadius) return false;//距离不够
         return true;
     }
 }

@@ -185,25 +185,27 @@ namespace moster_slime
     }
     public class Atk : FSMState
     {
-        float atkRadius;
-        float atkAngle;
-        float atkDamege;
-        float atkAnimationTime;
-        float atkCD;
-        float atkPre;
+        float atkRadius,atkAngle,atkDamage;
+        float atkAnimationTime,atkDamageWait;
+        bool hasDamage;
+        float atkCD,atkPre;
         float lastAtkTime;
+        float findCd, lastFindTime;
         NavMeshAgent agent;
         GameObject goalGameObject;
-        float findCd, lastFindTime;
+        lifeManager goalLifeManager;
         int atkState;
-        public Atk(GameObject gameObject,GameObject goalGameObject,float atkCD,float atkPre,float atkDamege,float atkRadius,float atkAngle)
+
+        public Atk(GameObject gameObject,GameObject goalGameObject,float atkCD,float atkPre,float atkDamage,float atkRadius,float atkAngle)
             : base(gameObject) 
         {
             agent = gameObject.GetComponent<NavMeshAgent>();
+            goalLifeManager = goalGameObject.GetComponent<lifeManager>();
             stateName = "Atk";
-            atkAnimationTime = 0.5f;
+            atkAnimationTime = 0.4f; 
+            atkDamageWait = 0.15f;
             this.goalGameObject = goalGameObject;
-            this.atkDamege = atkDamege;
+            this.atkDamage = atkDamage;
             this.atkRadius = atkRadius;
             this.atkAngle = atkAngle;
             this.atkCD = atkCD;
@@ -215,8 +217,10 @@ namespace moster_slime
             changeString = stateString;
             agent.ResetPath();
             animator.SetTrigger("Idle");
+            hasDamage = true;
             lastFindTime = 0;
             atkState = 0;
+            findCd = 0.5f;
         }
 
         public override void OnHold()
@@ -225,6 +229,12 @@ namespace moster_slime
             lastFindTime += Time.deltaTime;
             if(atkState == 0)
             {
+                if (!hasDamage && lastAtkTime > atkDamageWait && isGoalInAtkRadius())
+                {
+                    hasDamage = true;
+                    goalLifeManager.beAttack(atkDamage);
+                }
+
                 if (lastAtkTime > atkCD)
                 {
                     animator.SetTrigger("Atk");
@@ -238,15 +248,14 @@ namespace moster_slime
                     animator.SetTrigger("AtkHasPre");
                     lastAtkTime = 0;
                     atkState = 0;
+                    hasDamage = false;
                 }
             }
         }
         public override bool CanEnter(FSMState currentState)
         {
-            if(currentState.stateString == "Follow") 
+            if(currentState.stateString == "Follow" && isGoalInAtkRadius()) 
             {
-                //Debug.Log("Test feel :" + staticFunction.canSeeObject(gameObject, goalGameObject, atkRadius, atkAngle));
-                if(staticFunction.canSeeObject(gameObject, goalGameObject, atkRadius*2/3,atkAngle))
                 return true;
             }
             return false;
@@ -257,13 +266,18 @@ namespace moster_slime
             if (lastFindTime > findCd)
             {
                 lastFindTime = 0;
-                if (atkState == 0  && lastAtkTime > atkAnimationTime && !staticFunction.canSeeObject(gameObject, goalGameObject, atkRadius * 2 / 3, atkAngle))
+                if (atkState == 0  && lastAtkTime > atkAnimationTime && !isGoalInAtkRadius())
                 {
                     changeString = "Find";
                     return true;
                 }
             }
             return false;
+        }
+
+        bool isGoalInAtkRadius()
+        {
+            return staticFunction.canSeeObject(gameObject, goalGameObject, atkRadius * 2 / 3, atkAngle);
         }
     }
     public class Find : FSMState

@@ -21,5 +21,7 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _Threshold: 1
+    - _Threshold2: 1
     m_Colors:
     - _Color: {r: 1, g: 0.10849059, b: 0.10849059, a: 1}
+    - _Color2: {r: 1, g: 1, b: 0, a: 1}

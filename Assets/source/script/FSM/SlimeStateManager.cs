@@ -21,7 +21,8 @@ public class SlimeStateManager : AvatarStateManager
     public float atkRadius;
     public float atkAngle;
     public float atkCD;
-    public float atkPre;
+    public float atkPreTime;
+    public float atkDamageCalcTime;
     [Header("Find")]
     public float findTime;
     public float findAngle;
@@ -33,7 +34,7 @@ public class SlimeStateManager : AvatarStateManager
         stateMachine.Add(new moster_slime.Patrol(gameObject, trackMap, patrolSpeed)) ;
         stateMachine.Add(new moster_slime.Accidents(gameObject, atkObject,seeRadius,seeAngle, feelRadius,findAngle));
         stateMachine.Add(new moster_slime.Follow(gameObject, atkObject, seeRadius, seeAngle, allowLoseTime, followSpeed)) ;
-        stateMachine.Add(new moster_slime.Atk(gameObject,atkObject,atkCD,atkPre,atkDamage,atkRadius,atkAngle));
+        stateMachine.Add(new moster_slime.Atk(gameObject,atkObject,atkCD,atkPreTime,atkDamage,atkRadius,atkAngle, atkDamageCalcTime));
         stateMachine.Add(new moster_slime.Find(gameObject,atkObject,findTime,findAngle));
         stateMachine.Add(new moster_slime.Dead(gameObject));
     }

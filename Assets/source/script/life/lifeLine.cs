@@ -4,58 +4,82 @@ using UnityEngine;
 
 public class lifeLine : MonoBehaviour
 {
+    public float speed;
     Renderer render;
-    TextMesh valueMesh;
-    float goalRadio;
-    float nowRadio;
-    float speed;
-    
+    TextMesh textValueMesh;
+    float goalValue;
+    float nowValue;
+    float lifeLimit;
+    bool isFullShow;
+    bool isLineShow;
+    bool isTextShow;
+
+
     void Start()
     {
-        render = GetComponent<Renderer>();
-        valueMesh = transform.GetChild(0).gameObject.GetComponent<TextMesh>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (render && render.enabled)
+        if ((isLineShow || isTextShow) && nowValue != goalValue)
         {
-            if (nowRadio != goalRadio)
-            {
-                float deltaValue = speed * Time.deltaTime;
-                float distance = goalRadio - nowRadio;
-                if (deltaValue > Mathf.Abs(distance))
-                    nowRadio = goalRadio;
-                else nowRadio += deltaValue * Mathf.Sign(distance);
-                render.material.SetFloat("_Threshold", nowRadio);
+            float deltaValue = speed * Time.deltaTime;
+            float distance = goalValue - nowValue;
+            if (deltaValue > Mathf.Abs(distance))
+                nowValue = goalValue;
+            else nowValue += deltaValue * Mathf.Sign(distance);
+            if(isLineShow)
+                render.material.SetFloat("_Threshold2", nowValue/lifeLimit);
+            if(isTextShow)
+                textValueMesh.text = (int)nowValue + "/" + (int)lifeLimit;
+
+            if(!isFullShow)
+            {//隐藏满血
+                setShow(isLineShow && nowValue < lifeLimit, isTextShow && nowValue < lifeLimit);
             }
         }
     }
 
-    public void init()
+    public void init(float lifeLimit,bool isFullShow,bool isLineShow,bool isTextShow)
     {
         render = GetComponent<Renderer>();
-        valueMesh = transform.GetChild(0).gameObject.GetComponent<TextMesh>();
-        speed = 0.3f;
-        nowRadio = 1;
+        textValueMesh = transform.GetChild(0).gameObject.GetComponent<TextMesh>();
+        this.lifeLimit = lifeLimit;
+        nowValue = lifeLimit;
+        goalValue = lifeLimit;
+
+        this.isFullShow = isFullShow;
+        this.isLineShow = isLineShow;
+        this.isTextShow = isTextShow;
+        if (isFullShow) setShow(isLineShow, isTextShow);
+        else setShow(false, false);
     }
 
     public void setShow(bool isShowLine, bool isShowText)
     {
         render.enabled = isShowLine;
-        valueMesh.gameObject.SetActive(isShowText);
+        textValueMesh.gameObject.SetActive(isShowText);
     }
 
-    public void setLine(float radio)
+    public void setLife(float goalValue)
     {
-        goalRadio = radio;
+        if (isLineShow)
+        {
+            render.material.SetFloat("_Threshold", goalValue / lifeLimit);
+            if(goalValue > this.goalValue)//加血
+            {
+                nowValue = goalValue;
+                render.material.SetFloat("_Threshold2", goalValue / lifeLimit);
+                if (isFullShow)
+                {//隐藏满血
+                    setShow(isLineShow && nowValue < lifeLimit, isTextShow && nowValue < lifeLimit);
+                }
+            }
+        }
+        this.goalValue = goalValue;
     }
 
-    public void setLineAndValue(float radio, string value)
-    {
-        setLine(radio);
-        valueMesh.text = value;
-    }
 
 }

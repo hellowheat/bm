@@ -186,24 +186,29 @@ namespace moster_slime
     public class Atk : FSMState
     {
         float atkRadius,atkAngle,atkDamage;
-        float atkAnimationTime,atkDamageWait;
+        float atkAnimationTime,atkDamageCalcTime;
         bool hasDamage;
         float atkCD,atkPre;
-        float lastAtkTime;
+        float cacheTime;
         float findCd, lastFindTime;
         NavMeshAgent agent;
         GameObject goalGameObject;
-        lifeManager goalLifeManager;
-        int atkState;
+        OutInterface goalLifeManager;
+        AnimatorStateInfo lastStateInfo;
+        int atkState;//0:冷却中，在Idle或其他状态。
+            //1：等待跳转到startAtk动画。
+            //2:执行startAtk状态，抬头前摇。
+            //3:等待跳转到atk动画，
+            //4：撞击状态
 
-        public Atk(GameObject gameObject,GameObject goalGameObject,float atkCD,float atkPre,float atkDamage,float atkRadius,float atkAngle)
+        public Atk(GameObject gameObject,GameObject goalGameObject,float atkCD,float atkPre,float atkDamage,float atkRadius,float atkAngle,float atkDamageCalcTime)
             : base(gameObject) 
         {
             agent = gameObject.GetComponent<NavMeshAgent>();
-            goalLifeManager = goalGameObject.GetComponent<lifeManager>();
+            goalLifeManager = goalGameObject.GetComponent<OutInterface>();
             stateName = "Atk";
             atkAnimationTime = 0.4f; 
-            atkDamageWait = 0.15f;
+            this.atkDamageCalcTime = atkDamageCalcTime;
             this.goalGameObject = goalGameObject;
             this.atkDamage = atkDamage;
             this.atkRadius = atkRadius;
@@ -213,42 +218,75 @@ namespace moster_slime
         }
         public override void OnEnter()
         {
-            lastAtkTime = atkCD;
+            cacheTime = atkCD;
             changeString = stateString;
             agent.ResetPath();
-            animator.SetTrigger("Idle");
             hasDamage = true;
             lastFindTime = 0;
             atkState = 0;
             findCd = 0.5f;
+            Debug.Log("atk enter");
         }
 
         public override void OnHold()
         {
-            lastAtkTime += Time.deltaTime;
+
             lastFindTime += Time.deltaTime;
-            if(atkState == 0)
+            cacheTime += Time.deltaTime;
+            if (atkState == 0)
             {
-                if (!hasDamage && lastAtkTime > atkDamageWait && isGoalInAtkRadius())
+                Debug.Log("atkState in 0");
+                if (cacheTime > atkCD)
+                {
+                    atkState = 1;
+                    animator.SetTrigger("Atk");
+                    lastStateInfo = animator.GetCurrentAnimatorStateInfo(0);
+                }
+            }else if(atkState == 1)
+            {
+                //等待跳转到startAtk动画
+                if (animator.GetCurrentAnimatorStateInfo(0).fullPathHash != lastStateInfo.fullPathHash)
+                {
+                    lastStateInfo = animator.GetCurrentAnimatorStateInfo(0);
+                    atkState = 2;
+                    cacheTime = 0;
+                }
+            }
+            else if (atkState == 2)
+            {
+                Debug.Log("atkState in 2,cacheTIme:"+cacheTime);
+                if (cacheTime > atkPre)
+                {
+                    lastStateInfo = animator.GetCurrentAnimatorStateInfo(0);
+                    animator.SetTrigger("AtkHasPre");
+                    atkState = 3;
+                    cacheTime = 0;
+                    hasDamage = false;
+                }
+            }else if(atkState == 3)
+            {
+                Debug.Log("atkState in 3");
+                if (animator.GetCurrentAnimatorStateInfo(0).fullPathHash != lastStateInfo.fullPathHash)
+                {
+                    lastStateInfo = animator.GetCurrentAnimatorStateInfo(0);
+                    atkState = 4;
+                    cacheTime = 0;
+                }
+            }
+            else if(atkState == 4)
+            {
+                Debug.Log("atkState in 4");
+                //攻击中
+                if (!hasDamage && cacheTime > atkDamageCalcTime && isGoalInAtkRadius())
                 {
                     hasDamage = true;
                     goalLifeManager.beAttack(atkDamage);
                 }
 
-                if (lastAtkTime > atkCD)
+                if(animator.GetCurrentAnimatorStateInfo(0).fullPathHash != lastStateInfo.fullPathHash)
                 {
-                    animator.SetTrigger("Atk");
-                    lastAtkTime = 0;
-                    atkState = 1;
-                }
-            }else if(atkState == 1)
-            {
-                if (lastAtkTime > atkPre)
-                {
-                    animator.SetTrigger("AtkHasPre");
-                    lastAtkTime = 0;
                     atkState = 0;
-                    hasDamage = false;
+                    cacheTime = 0;
                 }
             }
         }
@@ -266,7 +304,7 @@ namespace moster_slime
             if (lastFindTime > findCd)
             {
                 lastFindTime = 0;
-                if (atkState == 0  && lastAtkTime > atkAnimationTime && !isGoalInAtkRadius())
+                if ((atkState != 4) && !isGoalInAtkRadius()) 
                 {
                     changeString = "Find";
                     return true;

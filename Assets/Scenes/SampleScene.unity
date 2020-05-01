@@ -1182,6 +1182,7 @@ GameObject:
   - component: {fileID: 1391747363}
   - component: {fileID: 1391747362}
   - component: {fileID: 1391747366}
+  - component: {fileID: 1391747367}
   m_Layer: 8
   m_Name: avater
   m_TagString: Untagged
@@ -1274,13 +1275,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c04f34a7bb9104548a712b35494ecb68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeLimit: 10
+  lifeLimit: 20
   offsetHigh: 1
-  isShowLifeFull: 0
-  isShowLifeNotFull: 1
+  isShowFullLife: 0
+  isShowLine: 1
   isShowText: 1
   lifeLinePreferb: {fileID: 3652310542433656262, guid: da331fb307c33de4bbb0addf3d28367a,
     type: 3}
+--- !u!114 &1391747367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391747361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c1ad6c34e749048800fe7fa733cabc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1653899776
 GameObject:
   m_ObjectHideFlags: 0
@@ -1379,8 +1392,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeLimit: 200
   offsetHigh: 1
-  isShowLifeFull: 1
-  isShowLifeNotFull: 1
+  isShowFullLife: 0
+  isShowLine: 0
   isShowText: 1
   lifeLinePreferb: {fileID: 3652310542433656262, guid: da331fb307c33de4bbb0addf3d28367a,
     type: 3}
@@ -1407,8 +1420,9 @@ MonoBehaviour:
   atkDamage: 3
   atkRadius: 3
   atkAngle: 30
-  atkCD: 2
-  atkPre: 0.5
+  atkCD: 1.5
+  atkPreTime: 0.2
+  atkDamageCalcTime: 0.1
   findTime: 5
   findAngle: 120
 --- !u!195 &1828874972

@@ -3,7 +3,9 @@
     Properties
     {
         _Color ("Color", Color) = (1,1,1,1)
+        _Color2 ("Color2", Color) = (1,1,1,1)
         _Threshold("threshold",Range(0,1))=1
+        _Threshold2("threshold2",Range(0,1))=1
     }
     SubShader
     {
@@ -36,7 +38,9 @@
             };
 
             fixed4 _Color;
+            fixed4 _Color2;
             float _Threshold;
+            float _Threshold2;
 
             v2f vert (appdata v)
             {
@@ -51,7 +55,9 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 UNITY_APPLY_FOG(i.fogCoord, i.col);
-                if((i.locv.y+1)/2 > _Threshold)i.col.a=0;
+                float testPos =(i.locv.y+1)/2;
+                if(testPos >= _Threshold2)i.col.a=0;
+                else if(testPos >= _Threshold)i.col=_Color2;
                 return i.col;
             }
             ENDCG

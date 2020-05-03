@@ -7,7 +7,7 @@ public class TrackMap : MonoBehaviour
     public Vector2Int[] MapTrack;
     Vector3[] allPositions;
     List<List<int>> map;
-    void Start()
+    void Awake()
     {
         allPositions = new Vector3[transform.childCount];
         map = new List<List<int>>();

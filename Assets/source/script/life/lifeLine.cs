@@ -39,6 +39,10 @@ public class lifeLine : MonoBehaviour
             {//隐藏满血
                 setShow(isLineShow && nowValue < lifeLimit, isTextShow && nowValue < lifeLimit);
             }
+            if (nowValue <= 0)
+            {
+                setShow(false, false);
+            }
         }
     }
 
@@ -53,7 +57,11 @@ public class lifeLine : MonoBehaviour
         this.isFullShow = isFullShow;
         this.isLineShow = isLineShow;
         this.isTextShow = isTextShow;
-        if (isFullShow) setShow(isLineShow, isTextShow);
+        if (isFullShow)
+        {
+            textValueMesh.text = (int)nowValue + "/" + (int)lifeLimit;
+            setShow(isLineShow, isTextShow);
+        }
         else setShow(false, false);
     }
 

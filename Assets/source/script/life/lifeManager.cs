@@ -6,6 +6,7 @@ public class lifeManager : MonoBehaviour
 {
     public float lifeLimit;
     public float offsetHigh;
+    public float offsetRotate;
     [Header("lifeLine")]
     public bool isShowFullLife;
     public bool isShowLine;
@@ -16,13 +17,14 @@ public class lifeManager : MonoBehaviour
     private float nowlife;
     DealDead m_dealDeadFunc;
     public float Nowlife { get => nowlife;}
+    public bool isDead { get => nowlife <= 0; }
 
     // Start is called before the first frame update
     void Start()
     {
         nowlife = lifeLimit;
         m_dealDeadFunc = null;
-        lifeLinePreferb = Instantiate(lifeLinePreferb, transform.position + Vector3.up * offsetHigh, lifeLinePreferb.transform.rotation);
+        lifeLinePreferb = Instantiate(lifeLinePreferb, transform.position + Vector3.up * offsetHigh, Quaternion.Euler(lifeLinePreferb.transform.rotation.eulerAngles + new Vector3(0, offsetRotate, 0))) ;
         lifeLinePreferb.transform.SetParent(transform);
         lifeLineController = lifeLinePreferb.GetComponent<lifeLine>();
         lifeLineController.init(lifeLimit,isShowFullLife,isShowLine,isShowText);

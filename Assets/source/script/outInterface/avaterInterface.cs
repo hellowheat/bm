@@ -4,22 +4,21 @@ using UnityEngine;
 
 public class avaterInterface : OutInterface
 {
-    lifeManager life;
     Animator animator;
-    void Start()
+    public override void init()
     {
         animator = GetComponent<Animator>();
-        life = GetComponent<lifeManager>();
     }
 
-    void Update()
-    {
-        
-    }
 
     public override void beAttack(float damage)
     {
         Debug.Log("avater beAttack");
         life.beAttack(damage);
+    }
+
+    public override bool isDead()
+    {
+        return life.isDead;
     }
 }

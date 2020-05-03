@@ -186,7 +186,7 @@ namespace moster_slime
     public class Atk : FSMState
     {
         float atkRadius,atkAngle,atkDamage;
-        float atkAnimationTime,atkDamageCalcTime;
+        float atkDamageCalcTime;//伤害延迟计算时间
         bool hasDamage;
         float atkCD,atkPre;
         float cacheTime;
@@ -194,7 +194,6 @@ namespace moster_slime
         NavMeshAgent agent;
         GameObject goalGameObject;
         OutInterface goalLifeManager;
-        AnimatorStateInfo lastStateInfo;
         int atkState;//0:冷却中，在Idle或其他状态。
             //1：等待跳转到startAtk动画。
             //2:执行startAtk状态，抬头前摇。
@@ -207,7 +206,6 @@ namespace moster_slime
             agent = gameObject.GetComponent<NavMeshAgent>();
             goalLifeManager = goalGameObject.GetComponent<OutInterface>();
             stateName = "Atk";
-            atkAnimationTime = 0.4f; 
             this.atkDamageCalcTime = atkDamageCalcTime;
             this.goalGameObject = goalGameObject;
             this.atkDamage = atkDamage;
@@ -235,29 +233,24 @@ namespace moster_slime
             cacheTime += Time.deltaTime;
             if (atkState == 0)
             {
-                Debug.Log("atkState in 0");
                 if (cacheTime > atkCD)
                 {
                     atkState = 1;
                     animator.SetTrigger("Atk");
-                    lastStateInfo = animator.GetCurrentAnimatorStateInfo(0);
                 }
             }else if(atkState == 1)
             {
                 //等待跳转到startAtk动画
-                if (animator.GetCurrentAnimatorStateInfo(0).fullPathHash != lastStateInfo.fullPathHash)
+                if (animator.GetBool("isInPreAtk"))
                 {
-                    lastStateInfo = animator.GetCurrentAnimatorStateInfo(0);
                     atkState = 2;
                     cacheTime = 0;
                 }
             }
             else if (atkState == 2)
             {
-                Debug.Log("atkState in 2,cacheTIme:"+cacheTime);
                 if (cacheTime > atkPre)
                 {
-                    lastStateInfo = animator.GetCurrentAnimatorStateInfo(0);
                     animator.SetTrigger("AtkHasPre");
                     atkState = 3;
                     cacheTime = 0;
@@ -265,17 +258,14 @@ namespace moster_slime
                 }
             }else if(atkState == 3)
             {
-                Debug.Log("atkState in 3");
-                if (animator.GetCurrentAnimatorStateInfo(0).fullPathHash != lastStateInfo.fullPathHash)
+                if (animator.GetBool("isInAtk"))
                 {
-                    lastStateInfo = animator.GetCurrentAnimatorStateInfo(0);
                     atkState = 4;
                     cacheTime = 0;
                 }
             }
             else if(atkState == 4)
             {
-                Debug.Log("atkState in 4");
                 //攻击中
                 if (!hasDamage && cacheTime > atkDamageCalcTime && isGoalInAtkRadius())
                 {
@@ -283,7 +273,7 @@ namespace moster_slime
                     goalLifeManager.beAttack(atkDamage);
                 }
 
-                if(animator.GetCurrentAnimatorStateInfo(0).fullPathHash != lastStateInfo.fullPathHash)
+                if (!animator.GetBool("isInAtk"))
                 {
                     atkState = 0;
                     cacheTime = 0;
@@ -323,10 +313,14 @@ namespace moster_slime
         GameObject goalGameObject;
         float findTime,findAngle;
         float hasFoundTime;
+        OutInterface gbInterface;
+        float lastLife;
         public Find(GameObject gameObject,GameObject goalObject,float findTime,float findAngle)
             : base(gameObject)
         {
             stateName = "Find";
+            gbInterface = gameObject.GetComponent<OutInterface>();
+            lastLife = -1;
             this.goalGameObject = goalObject;
             this.findAngle = findAngle;
             this.findTime = findTime;
@@ -351,13 +345,61 @@ namespace moster_slime
             }
             return false;
         }
+
+        public override bool CanEnter(FSMState currentState)
+        {
+            if(lastLife ==-1)lastLife = gbInterface.getLife();
+            if (currentState.stateString == "Idle" || currentState.stateString == "Patrol")
+            {
+                if(lastLife != gbInterface.getLife())
+                {
+                    lastLife = gbInterface.getLife();
+                    return true;
+                }
+            }
+            return false;
+        }
     }
     public class Dead : FSMState
     {
+        lifeManager life;
+        int deadState;
+        
         public Dead(GameObject gameObject)
             : base(gameObject)
         {
             stateName = "Dead";
+            life = gameObject.GetComponent<lifeManager>();
+        }
+
+        public override void OnEnter()
+        {
+            changeString = stateName;
+            deadState = 0;
+        }
+
+        public override void OnHold()
+        {
+            if (deadState == 0)
+            {
+                if (animator.GetLayerWeight(1) == 0)
+                {
+                    deadState = 1;
+                    gameObject.GetComponent<BoxCollider>().enabled=false;
+                    animator.SetTrigger(stateName);
+                }
+            }
+            else if (deadState == 1)
+            {
+            }
+        }
+        public override bool CanEnter(FSMState currentState)
+        {
+            if (life.isDead)
+            {
+                return true;
+            }
+            return false;
         }
 
     }

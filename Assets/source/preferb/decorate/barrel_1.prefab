@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1625857342033163406}
   - component: {fileID: 6487368478059706501}
   m_Layer: 0
-  m_Name: rpgpp_lt_barrel_01
+  m_Name: barrel_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -11,13 +11,11 @@
 
         Pass
         {
-        ZTest Always
+            ZTest Always
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
             // make fog work
-            #pragma multi_compile_fog
-
             #include "UnityCG.cginc"
 
             struct appdata
@@ -28,9 +26,7 @@
 
             struct v2f
             {
-                float2 uv : TEXCOORD0;
                 fixed4 col :COLOR;
-                UNITY_FOG_COORDS(1)
                 float4 vertex : SV_POSITION;
             };
 
@@ -38,18 +34,15 @@
 
             v2f vert (appdata v)
             {
-                v.vertex+=normalize(v.vertex)*(length(ObjSpaceViewDir(v.vertex))/100);
+                v.vertex+=normalize(v.vertex)*(((float)length(ObjSpaceViewDir(v.vertex)))/100);
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.col=_MainColor;
-                UNITY_TRANSFER_FOG(o,o.vertex);
                 return o;
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
-                // sample the texture
-                UNITY_APPLY_FOG(i.fogCoord, col);
                 return i.col;
             }
             ENDCG

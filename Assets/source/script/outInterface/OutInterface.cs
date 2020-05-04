@@ -18,11 +18,15 @@ public class OutInterface : MonoBehaviour
     }
     virtual public void init() { }
     virtual public void update() { }
+
+
     virtual public void beAttack(float damage){}
     virtual public void beDebuff(string debuff){}
+    
 
     virtual public bool isDead(){return false;}
-
     virtual public float getLife() { return life.Nowlife; }
+
+    virtual public void pushProp(string propStr) { }
 
 }

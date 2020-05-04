@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 namespace moster_slime
 {
+    #region IdleState
     public class Idle :FSMState
     {
         float stayTime;
@@ -33,6 +34,10 @@ namespace moster_slime
             return false;
         }
     }
+
+    #endregion
+
+    #region PatrolState
     public class Patrol : FSMState
     {
         NavMeshAgent agent;
@@ -67,9 +72,13 @@ namespace moster_slime
             return base.CanChange();
         }
     }
+    #endregion
+
+    #region AccidentsState
     public class Accidents : FSMState
     {
         GameObject goalGameObject;
+        OutInterface goalInterface;
         float seeRadius,seeAngle,feelRadius,findAngle;
         float accidentsTime = 0.5f;
         float stayTime;
@@ -84,6 +93,7 @@ namespace moster_slime
             this.seeAngle = seeAngle;
             this.feelRadius = feelRadius;
             this.findAngle = findAngle;
+            goalInterface = goalGameObject.GetComponent<OutInterface>();
         }
 
         public override void OnEnter()
@@ -125,12 +135,23 @@ namespace moster_slime
                 && currentState.stateString != "Patrol"
                 && currentState.stateString != "Find")
                 return false;
-            if(currentState.stateString == "Find") return staticFunction.canSeeObject(gameObject, goalGameObject, seeRadius*2, findAngle) || staticFunction.canFeelObject(gameObject, goalGameObject, feelRadius);
-            else return staticFunction.canSeeObject(gameObject, goalGameObject, seeRadius, seeAngle) || staticFunction.canFeelObject(gameObject,goalGameObject,feelRadius);
+            if (goalInterface.isDead()) return false;
+            if (currentState.stateString == "Find")
+            {
+                return staticFunction.canSeeObject(gameObject, goalGameObject, seeRadius * 2, findAngle) || staticFunction.canFeelObject(gameObject, goalGameObject, feelRadius);
+
+            }
+            else
+            {
+                return staticFunction.canSeeObject(gameObject, goalGameObject, seeRadius, seeAngle) || staticFunction.canFeelObject(gameObject, goalGameObject, feelRadius);
+            }
         }
 
         
     }
+    #endregion
+   
+    #region FollowState
     public class Follow : FSMState
     {
         NavMeshAgent agent;
@@ -183,6 +204,9 @@ namespace moster_slime
             return false;
         }
     }
+    #endregion
+
+    #region AtkState
     public class Atk : FSMState
     {
         float atkRadius,atkAngle,atkDamage;
@@ -193,7 +217,7 @@ namespace moster_slime
         float findCd, lastFindTime;
         NavMeshAgent agent;
         GameObject goalGameObject;
-        OutInterface goalLifeManager;
+        OutInterface goalInterface;
         int atkState;//0:冷却中，在Idle或其他状态。
             //1：等待跳转到startAtk动画。
             //2:执行startAtk状态，抬头前摇。
@@ -204,7 +228,7 @@ namespace moster_slime
             : base(gameObject) 
         {
             agent = gameObject.GetComponent<NavMeshAgent>();
-            goalLifeManager = goalGameObject.GetComponent<OutInterface>();
+            goalInterface = goalGameObject.GetComponent<OutInterface>();
             stateName = "Atk";
             this.atkDamageCalcTime = atkDamageCalcTime;
             this.goalGameObject = goalGameObject;
@@ -270,7 +294,7 @@ namespace moster_slime
                 if (!hasDamage && cacheTime > atkDamageCalcTime && isGoalInAtkRadius())
                 {
                     hasDamage = true;
-                    goalLifeManager.beAttack(atkDamage);
+                    goalInterface.beAttack(atkDamage);
                 }
 
                 if (!animator.GetBool("isInAtk"))
@@ -300,6 +324,11 @@ namespace moster_slime
                     return true;
                 }
             }
+            if (goalInterface.isDead())
+            {
+                changeString = "Find";
+                return true;
+            }
             return false;
         }
 
@@ -308,6 +337,9 @@ namespace moster_slime
             return staticFunction.canSeeObject(gameObject, goalGameObject, atkRadius * 2 / 3, atkAngle);
         }
     }
+    #endregion
+
+    #region FindState
     public class Find : FSMState
     {
         GameObject goalGameObject;
@@ -360,8 +392,12 @@ namespace moster_slime
             return false;
         }
     }
+    #endregion
+
+    #region DeadState
     public class Dead : FSMState
     {
+        NavMeshAgent agent;
         lifeManager life;
         int deadState;
         
@@ -370,12 +406,14 @@ namespace moster_slime
         {
             stateName = "Dead";
             life = gameObject.GetComponent<lifeManager>();
+            agent = gameObject.GetComponent<NavMeshAgent>();
         }
 
         public override void OnEnter()
         {
             changeString = stateName;
             deadState = 0;
+            agent.ResetPath();
         }
 
         public override void OnHold()
@@ -403,5 +441,5 @@ namespace moster_slime
         }
 
     }
-
+    #endregion
 }

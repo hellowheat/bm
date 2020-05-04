@@ -92,11 +92,6 @@ public class BoomerangController : MonoBehaviour
         hasCollised = false;
     }
 
-    void pick(AtkLogic atkL)
-    {
-        atkL.pickBoomerang();
-        mr.enabled = false;
-    }
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -152,7 +147,8 @@ public class BoomerangController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         hasCollised = true;
-        if (atkState == AtkState.fly && collision.transform.tag == "moster")
+        
+        if (atkState == AtkState.fly && collision.transform.CompareTag("moster"))
         {
             //碰撞到怪物
             if (!hasDamage)
@@ -161,14 +157,14 @@ public class BoomerangController : MonoBehaviour
                 hasDamage = true;
             }
         }
-        else if(atkState == AtkState.fly && collision.transform.tag == "ground")
+        else if(atkState == AtkState.fly && collision.transform.CompareTag("ground"))
         {
             //碰撞到地面
             atkState = AtkState.wait;
         }
-        else if((atkState == AtkState.wait || atkState == AtkState.fly) && collision.transform.tag == "avater")
+        else if((atkState == AtkState.wait || atkState == AtkState.fly) && collision.transform.CompareTag("avater"))
         {
-            pick(collision.gameObject.GetComponent<AtkLogic>());
+            collision.gameObject.GetComponent<OutInterface>().pushProp("boomerang");
             atkState = AtkState.rest;
             clearBall();
             mr.enabled = false;

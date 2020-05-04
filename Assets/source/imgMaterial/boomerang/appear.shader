@@ -19,7 +19,7 @@ Shader "Unlit/appear"
             LOD 100
             ZWrite off
             Blend SrcAlpha OneMinusSrcAlpha
-            
+            /*
             Pass{
                //ZTest always
                Cull Back
@@ -66,6 +66,7 @@ Shader "Unlit/appear"
 				}
                ENDCG
 			}
+            */
             Pass
             {
                 //Cull Back
@@ -103,15 +104,11 @@ Shader "Unlit/appear"
                    
                     float4 ve = mul(UNITY_MATRIX_MV,v.vertex);
                     float3 n = (mul((float3x3)UNITY_MATRIX_IT_MV,v.normal));
-                   // ve.xyz+=normalize(n)*_RimSize*length(ObjSpaceViewDir(v.vertex))*0.00001f;
                     ve.xyz+=normalize(n)*0.00005f*length(ObjSpaceViewDir(v.vertex));
                     o.vertex=mul(UNITY_MATRIX_P,ve);
 
-                   // o.vertex = UnityObjectToClipPos(v.vertex);
                     o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                     o.normal = mul(v.normal, (float3x3)unity_WorldToObject);
-                    //UNITY_TRANSFER_FOG(o,o.vertex);
-                    //o.vertex.z-=10.001;
                     return o;
                 }
 
@@ -127,10 +124,33 @@ Shader "Unlit/appear"
                 ENDCG
             }
             
-            /*Pass{
-            ZTest always
-                ZWrite on
-                ColorMask 0     
-			}*/
+            Pass{
+                Name "ShadowCaster"
+                Tags{"LightMode"="ShadowCaster"}     
+                CGPROGRAM
+                #pragma vertex vert
+                #pragma fragment frag
+                #pragma target 2.0
+                #pragma multi_compile_shadowcaster
+                #pragma multi_compile_instancing
+                #include "UnityCG.cginc"
+                struct v2f {
+                    V2F_SHADOW_CASTER;
+                    UNITY_VERTEX_OUTPUT_STEREO
+				};
+                v2f vert(appdata_base v){
+                    v2f o;
+                    UNITY_SETUP_INSTANCE_ID(v);
+                    UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+                    TRANSFER_SHADOW_CASTER_NORMALOFFSET(o)
+                    return o;
+				}
+
+                float4 frag(v2f i):SV_Target
+                {
+                    SHADOW_CASTER_FRAGMENT(i)        
+				}
+                ENDCG
+			}
     }
 }

@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class avaterInterface : OutInterface
 {
+    AtkLogic atkLogic;
     Animator animator;
+    headHitSystem propHit;
     public override void init()
     {
+        atkLogic = GetComponent<AtkLogic>();
         animator = GetComponent<Animator>();
+        propHit = GetComponent<headHitSystem>();
     }
 
 
@@ -20,5 +24,14 @@ public class avaterInterface : OutInterface
     public override bool isDead()
     {
         return life.isDead;
+    }
+
+    public override void pushProp(string propStr)
+    {
+        if(propStr == "boomerang")
+        {
+            atkLogic.pickBoomerang();
+            propHit.Push(0);
+        }
     }
 }

@@ -2,22 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class avaterInterface : OutInterface
+public class AvaterInterface : OutInterface
 {
     AtkLogic atkLogic;
+    GameObject beAtkObj;
     Animator animator;
-    headHitSystem propHit;
+    HeadHitSystem propHit;
     public override void init()
     {
         atkLogic = GetComponent<AtkLogic>();
         animator = GetComponent<Animator>();
-        propHit = GetComponent<headHitSystem>();
+        propHit = GetComponent<HeadHitSystem>();
+        beAtkObj = null;
     }
 
 
-    public override void beAttack(float damage)
+    public override void beAttack(float damage, GameObject atkObj)
     {
-        Debug.Log("avater beAttack");
+        beAtkObj = atkObj;
         life.beAttack(damage);
     }
 

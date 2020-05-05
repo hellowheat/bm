@@ -8,11 +8,19 @@ public class lifeManager : MonoBehaviour
     public float offsetHigh;
     public float offsetRotate;
     [Header("lifeLine")]
+    public bool useLifeLine;
+    public GameObject lifeLinePrefab;
     public bool isShowFullLife;
     public bool isShowLine;
     public bool isShowText;
-    public GameObject lifeLinePreferb;
     private lifeLine lifeLineController;
+    [Header("lifeUI")]
+    public bool useLifeUI;
+    public GameObject lifeUIBox;
+    public GameObject lifeUIPrefab;
+    private ObjectPool lifeUIPool;
+
+
     public delegate void DealDead();//失败时调用的方法
     private float nowlife;
     DealDead m_dealDeadFunc;
@@ -24,11 +32,18 @@ public class lifeManager : MonoBehaviour
     {
         nowlife = lifeLimit;
         m_dealDeadFunc = null;
-        lifeLinePreferb = Instantiate(lifeLinePreferb, transform.position + Vector3.up * offsetHigh, Quaternion.Euler(lifeLinePreferb.transform.rotation.eulerAngles + new Vector3(0, offsetRotate, 0))) ;
-        lifeLinePreferb.transform.SetParent(transform);
-        lifeLineController = lifeLinePreferb.GetComponent<lifeLine>();
-        lifeLineController.init(lifeLimit,isShowFullLife,isShowLine,isShowText);
-        updateLifeLine();
+        if (useLifeLine)
+        {
+            lifeLinePrefab = Instantiate(lifeLinePrefab, transform.position + Vector3.up * offsetHigh, Quaternion.Euler(lifeLinePrefab.transform.rotation.eulerAngles + new Vector3(0, offsetRotate, 0)));
+            lifeLinePrefab.transform.SetParent(transform);
+            lifeLineController = lifeLinePrefab.GetComponent<lifeLine>();
+            lifeLineController.init(lifeLimit, isShowFullLife, isShowLine, isShowText);
+        }
+        if (useLifeUI)
+        {
+            lifeUIPool = new ObjectPool(lifeUIBox, transform);
+        }
+        updateLifeShow();
     }
     float tm;
     void Update()
@@ -39,7 +54,7 @@ public class lifeManager : MonoBehaviour
     public void resetLife()
     {
         nowlife = lifeLimit;
-        updateLifeLine();
+        updateLifeShow();
     }
 
     public void setDeadDeal(DealDead dealDead)
@@ -57,7 +72,7 @@ public class lifeManager : MonoBehaviour
                 nowlife = 0;
                 m_dealDeadFunc?.Invoke();
             }
-            updateLifeLine();
+            updateLifeShow();
         }
     }
 
@@ -66,8 +81,9 @@ public class lifeManager : MonoBehaviour
         
     }
 
-    private void updateLifeLine()
+    private void updateLifeShow()
     {
-         lifeLineController.setLife(nowlife);
+        if(useLifeLine)
+            lifeLineController.setLife(nowlife);
     }
 }

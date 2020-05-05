@@ -1,4 +1,6 @@
-﻿Shader "Unlit/trackBall"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Unlit/trackBall"
 {
     Properties
     {
@@ -6,8 +8,8 @@
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
-        LOD 100
+        //Tags { "RenderType"="Opaque" }
+        //LOD 100
 
         Pass
         {
@@ -21,6 +23,7 @@
             struct appdata
             {
                 float4 vertex : POSITION;
+                float4 normal : NORMAL;
                 float2 uv : TEXCOORD0;
             };
 
@@ -34,6 +37,7 @@
 
             v2f vert (appdata v)
             {
+                //v.vertex+=normalize(v.vertex)*(((float)length(_WorldSpaceCameraPos-UnityObjectToClipPos(v.vertex))));
                 v.vertex+=normalize(v.vertex)*(((float)length(ObjSpaceViewDir(v.vertex)))/100);
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);

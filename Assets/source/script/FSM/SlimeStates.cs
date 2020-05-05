@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using DG.Tweening;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -294,7 +295,7 @@ namespace moster_slime
                 if (!hasDamage && cacheTime > atkDamageCalcTime && isGoalInAtkRadius())
                 {
                     hasDamage = true;
-                    goalInterface.beAttack(atkDamage);
+                    goalInterface.beAttack(atkDamage,gameObject);
                 }
 
                 if (!animator.GetBool("isInAtk"))
@@ -380,11 +381,17 @@ namespace moster_slime
 
         public override bool CanEnter(FSMState currentState)
         {
-            if(lastLife ==-1)lastLife = gbInterface.getLife();
-            if (currentState.stateString == "Idle" || currentState.stateString == "Patrol")
+            if(lastLife == -1)lastLife = gbInterface.getLife();
+            if (currentState.stateString == "Idle" || currentState.stateString == "Patrol" || currentState.stateString == "Find")
             {
                 if(lastLife != gbInterface.getLife())
                 {
+                    //被攻击时转向目标
+                    Vector3 v1 = gameObject.transform.forward;
+                    Vector3 v2 = gbInterface.getBeAtkPos() - gameObject.transform.position;
+                    float cross = v1.x * v2.z - v1.z * v2.x;
+                    float angle = Vector3.Angle(v1, v2);
+                    gameObject.transform.DORotate(gameObject.transform.rotation.eulerAngles + new Vector3(0, angle * -Mathf.Sign(cross), 0), 0.5f) ;
                     lastLife = gbInterface.getLife();
                     return true;
                 }

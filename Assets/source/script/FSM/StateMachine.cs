@@ -50,6 +50,7 @@ public class StateMachine
         if (currentState.CanChange())
         {
             TranslateState(currentState.ChangeString());
+            return;
         }
 
         //强制进入某状态

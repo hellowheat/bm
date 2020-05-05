@@ -19,6 +19,9 @@ public class BoomerangController : MonoBehaviour
     public GameObject ballPrfb;
     public float maxBallNumber;
     public float ballBronDis;
+
+    [Header("Trail")]
+    public TrailRenderer trailRenderer;
     private ObjectPool ballPool;
     private List<GameObject> balls;
     private float lastBallBronTime;
@@ -53,7 +56,7 @@ public class BoomerangController : MonoBehaviour
         atkState = AtkState.bron;
 
         //初始化场景特效
-        clearBall();
+        clearTrailTrack();
         particle.Play();
     }
 
@@ -89,6 +92,7 @@ public class BoomerangController : MonoBehaviour
         rb.velocity = (cameraLookPos.position - displayTransform.position).normalized * speed;
         rb.useGravity = true;
         atkState = AtkState.fly;
+        trailRenderer.enabled = true;
         hasCollised = false;
     }
 
@@ -115,6 +119,8 @@ public class BoomerangController : MonoBehaviour
             else
             {
                 mt.SetFloat("_threshold", 1);
+                particle.Stop();
+
             }
         }
 
@@ -153,7 +159,7 @@ public class BoomerangController : MonoBehaviour
             //碰撞到怪物
             if (!hasDamage)
             {
-                collision.gameObject.GetComponent<OutInterface>().beAttack(damage);
+                collision.gameObject.GetComponent<OutInterface>().beAttack(damage, gameObject) ;
                 hasDamage = true;
             }
         }
@@ -166,17 +172,18 @@ public class BoomerangController : MonoBehaviour
         {
             collision.gameObject.GetComponent<OutInterface>().pushProp("boomerang");
             atkState = AtkState.rest;
-            clearBall();
+            clearTrailTrack();
             mr.enabled = false;
         }
     }
 
-    private void clearBall()
+    private void clearTrailTrack()
     {
         for(int i = 0; i < balls.Count; i++)
         {
             ballPool.destroy(balls[i]);
         }
         balls.Clear();
+        trailRenderer.enabled = false;
     }
 }

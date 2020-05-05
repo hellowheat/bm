@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class headHitSystem : MonoBehaviour
+public class HeadHitSystem : MonoBehaviour
 {
     public Transform startPos;
     public float offsetUp;

@@ -1,887 +1,887 @@
-魔方拆拆乐	http://www.wesane.com/game/976    
-水果射手	http://www.wesane.com/game/950    
-番茄农场	http://www.wesane.com/game/968    
-葡萄变西瓜	http://www.wesane.com/game/974    
-收集蜂蜜	http://www.wesane.com/game/927    
-山楂串	http://www.wesane.com/game/848    
-水果大清仓	http://www.wesane.com/game/925    
-水母之王	http://www.wesane.com/game/955    
-解救丘比特	http://www.wesane.com/game/940    
-母鸡下蛋	http://www.wesane.com/game/705    
-虎虎生威	http://www.wesane.com/game/934    
-哥俩好	http://www.wesane.com/game/351    
-锦上添花	http://www.wesane.com/game/42    
-合成大西瓜	http://www.wesane.com/game/654    
-车水马龙	http://www.wesane.com/game/684    
-召唤神龙	http://www.wesane.com/game/910    
-去郊游	http://www.wesane.com/game/702    
-回家过年	http://www.wesane.com/game/928    
-牛气冲天	http://www.wesane.com/game/369    
-建造通天塔	http://www.wesane.com/game/816    
-卖油翁	http://www.wesane.com/game/88    
-飞天软糖	http://www.wesane.com/game/918    
-睡莲	http://www.wesane.com/game/631    
-百米钉钉	http://www.wesane.com/game/912    
-恭喜发财	http://www.wesane.com/game/640    
-蚂蚁搬家	http://www.wesane.com/game/57    
-女皇登基	http://www.wesane.com/game/874    
-抓螃蟹	http://www.wesane.com/game/862    
-神枪手	http://www.wesane.com/game/818    
-串串香	http://www.wesane.com/game/781    
-枪王之战	http://www.wesane.com/game/493    
-花朵大作战	http://www.wesane.com/game/739    
-遍地开花	http://www.wesane.com/game/759    
-龟龟滑雪	http://www.wesane.com/game/793    
-按序停车	http://www.wesane.com/game/649    
-纸牌对对碰	http://www.wesane.com/game/701    
-甜点乐园	http://www.wesane.com/game/805    
-交换数字	http://www.wesane.com/game/735    
-果缤纷	http://www.wesane.com/game/821    
-大鱼	http://www.wesane.com/game/811    
-弹金币	http://www.wesane.com/game/808    
-整理大师	http://www.wesane.com/game/819    
-解救公主	http://www.wesane.com/game/782    
-合成大南瓜	http://www.wesane.com/game/795    
-纸牌合十	http://www.wesane.com/game/732    
-串串丸子	http://www.wesane.com/game/784    
-弹珠碰碰	http://www.wesane.com/game/780    
-上菜	http://www.wesane.com/game/758    
-旅行气球	http://www.wesane.com/game/827    
-水果碎碎冰	http://www.wesane.com/game/757    
-蛇棋	http://www.wesane.com/game/791    
-掏耳朵	http://www.wesane.com/game/761    
-沉重打鸡	http://www.wesane.com/game/769    
-珠连必合	http://www.wesane.com/game/648    
-纸牌传奇	http://www.wesane.com/game/650    
-大丰收	http://www.wesane.com/game/751    
-糖果爆爆	http://www.wesane.com/game/754    
-水果大王	http://www.wesane.com/game/694    
-春暖花开	http://www.wesane.com/game/641    
-四色接龙	http://www.wesane.com/game/738    
-孵化小黄鸭	http://www.wesane.com/game/734    
-合成黑珍珠	http://www.wesane.com/game/706    
-刀削面	http://www.wesane.com/game/747    
-象棋马拉松	http://www.wesane.com/game/718    
-大力出奇迹	http://www.wesane.com/game/726    
-双色接龙	http://www.wesane.com/game/680    
-满汉全席	http://www.wesane.com/game/635    
-天花乱坠	http://www.wesane.com/game/632    
-齐天大圣	http://www.wesane.com/game/407    
-西瓜会爆炸	http://www.wesane.com/game/677    
-千里走单骑	http://www.wesane.com/game/698    
-爆米花	http://www.wesane.com/game/778    
-丢西瓜捡芝麻	http://www.wesane.com/game/766    
-天上掉钱	http://www.wesane.com/game/764    
-蔬菜十字连	http://www.wesane.com/game/762    
-糖果罐头	http://www.wesane.com/game/655    
-刀工大师	http://www.wesane.com/game/596    
-铲雪车	http://www.wesane.com/game/619    
-圣诞礼物	http://www.wesane.com/game/636    
-刮腿毛	http://www.wesane.com/game/264    
-宝石起源	http://www.wesane.com/game/605    
-画线捕鱼	http://www.wesane.com/game/404    
-三消丸子	http://www.wesane.com/game/560    
-打果子	http://www.wesane.com/game/587    
-彩虹屁	http://www.wesane.com/game/260    
-破茧成蝶	http://www.wesane.com/game/653    
-含苞待放	http://www.wesane.com/game/570    
-箭无虚发	http://www.wesane.com/game/568    
-30层甜筒	http://www.wesane.com/game/538    
-穿串串	http://www.wesane.com/game/512    
-以卵击石	http://www.wesane.com/game/586    
-见缝插车	http://www.wesane.com/game/295    
-花田	http://www.wesane.com/game/263    
-暴力扣篮	http://www.wesane.com/game/606    
-水果串串	http://www.wesane.com/game/628    
-飞刀扎水果	http://www.wesane.com/game/577    
-汽车华容道	http://www.wesane.com/game/172    
-鸡蛋大冒险	http://www.wesane.com/game/610    
-单色纸牌	http://www.wesane.com/game/103    
-小李飞刀	http://www.wesane.com/game/201    
-要饭	http://www.wesane.com/game/546    
-21点	http://www.wesane.com/game/548    
-保护气球	http://www.wesane.com/game/438    
-勤劳的快递员	http://www.wesane.com/game/537    
-跳房子	http://www.wesane.com/game/561    
-传纸条	http://www.wesane.com/game/487    
-印度飞饼	http://www.wesane.com/game/477    
-汉堡跳跃	http://www.wesane.com/game/470    
-擦玻璃	http://www.wesane.com/game/534    
-捣蛋鬼	http://www.wesane.com/game/562    
-投篮	http://www.wesane.com/game/212    
-摘星星	http://www.wesane.com/game/633    
-接桃子	http://www.wesane.com/game/483    
-水果一刀切	http://www.wesane.com/game/215    
-奔跑的章鱼丸	http://www.wesane.com/game/525    
-回转汽车	http://www.wesane.com/game/499    
-宝石合并	http://www.wesane.com/game/255    
-接鸡蛋	http://www.wesane.com/game/496    
-千层甜筒	http://www.wesane.com/game/510    
-极速飙车	http://www.wesane.com/game/154    
-打水果	http://www.wesane.com/game/472    
-破碎机	http://www.wesane.com/game/484    
-做果汁	http://www.wesane.com/game/436    
-画线停车	http://www.wesane.com/game/445    
-愚公移山	http://www.wesane.com/game/486    
-插队	http://www.wesane.com/game/446    
-杞人忧天	http://www.wesane.com/game/474    
-旋转飞刀	http://www.wesane.com/game/358    
-新版小猫钓鱼	http://www.wesane.com/game/471    
-挤牛奶	http://www.wesane.com/game/424    
-向上生长	http://www.wesane.com/game/423    
-卖炭翁	http://www.wesane.com/game/409    
-点球大战	http://www.wesane.com/game/406    
-小马过河	http://www.wesane.com/game/397    
-发车	http://www.wesane.com/game/414    
-口罩防御战	http://www.wesane.com/game/403    
-磁铁粘粘	http://www.wesane.com/game/270    
-狙击手	http://www.wesane.com/game/400    
-猴子上树	http://www.wesane.com/game/160    
-舞龙	http://www.wesane.com/game/44    
-射苹果	http://www.wesane.com/game/1    
-贪吃鱼	http://www.wesane.com/game/393    
-涂鸦弹球	http://www.wesane.com/game/395    
-环游世界	http://www.wesane.com/game/222    
-猫和老鼠2	http://www.wesane.com/game/380    
-点火	http://www.wesane.com/game/391    
-钉钉子	http://www.wesane.com/game/98    
-这是我的菜	http://www.wesane.com/game/202    
-找你妹	http://www.wesane.com/game/123    
-去火星	http://www.wesane.com/game/388    
-小小骑士	http://www.wesane.com/game/355    
-弹一弹	http://www.wesane.com/game/210    
-荡秋千	http://www.wesane.com/game/330    
-作弊	http://www.wesane.com/game/143    
-扣瓶盖	http://www.wesane.com/game/71    
-皮皮鼠	http://www.wesane.com/game/350    
-极速射击	http://www.wesane.com/game/361    
-拯救小猪	http://www.wesane.com/game/257    
-循环火车	http://www.wesane.com/game/381    
-独轮车	http://www.wesane.com/game/374    
-叠罗汉	http://www.wesane.com/game/189    
-送快递	http://www.wesane.com/game/7    
-浇花	http://www.wesane.com/game/118    
-士兵突击	http://www.wesane.com/game/96    
-跨栏	http://www.wesane.com/game/68    
-浇菜	http://www.wesane.com/game/124    
-下坠小球	http://www.wesane.com/game/181    
-边走边吐	http://www.wesane.com/game/6    
-捞金鱼	http://www.wesane.com/game/24    
-拆弹专家	http://www.wesane.com/game/370    
-翻转水瓶	http://www.wesane.com/game/268    
-猫和老鼠	http://www.wesane.com/game/107    
-守护蛋蛋	http://www.wesane.com/game/262    
-黄金分割	http://www.wesane.com/game/221    
-猴子捞月	http://www.wesane.com/game/70    
-四消水果	http://www.wesane.com/game/15    
-象棋大逃杀	http://www.wesane.com/game/209    
-糖葫芦大王	http://www.wesane.com/game/285    
-无敌破坏球	http://www.wesane.com/game/179    
-玩块块	http://www.wesane.com/game/148    
-大闹天宫	http://www.wesane.com/game/259    
-一碗球	http://www.wesane.com/game/271    
-开车去旅行	http://www.wesane.com/game/235    
-狼和小羊	http://www.wesane.com/game/195    
-宝石传奇	http://www.wesane.com/game/150    
-旋转消消	http://www.wesane.com/game/75    
-豌豆射手	http://www.wesane.com/game/85    
-擦一擦	http://www.wesane.com/game/219    
-星球大战	http://www.wesane.com/game/162    
-摆六角	http://www.wesane.com/game/109    
-滴水不漏	http://www.wesane.com/game/81    
-拉火车	http://www.wesane.com/game/130    
-BB弹	http://www.wesane.com/game/128    
-跳火圈	http://www.wesane.com/game/146    
-骰子合合	http://www.wesane.com/game/125    
-守株待兔	http://www.wesane.com/game/156    
-粉笔弹球	http://www.wesane.com/game/152    
-旋转弹珠	http://www.wesane.com/game/126    
-搭桥	http://www.wesane.com/game/89    
-蜂窝拼拼	http://www.wesane.com/game/119    
-推箱子	http://www.wesane.com/game/104    
-山峰纸牌	http://www.wesane.com/game/26    
-找朋友	http://www.wesane.com/game/140    
-小马过河	http://www.wesane.com/game/59    
-海马逃生	http://www.wesane.com/game/145    
-糖块消消	http://www.wesane.com/game/99    
-三角同心	http://www.wesane.com/game/158    
-水果炮弹	http://www.wesane.com/game/135    
-双喜临门	http://www.wesane.com/game/111    
-海滨消消乐	http://www.wesane.com/game/17    
-不超过十	http://www.wesane.com/game/52    
-高尔夫球	http://www.wesane.com/game/136    
-五福临门	http://www.wesane.com/game/76    
-四通八达	http://www.wesane.com/game/62    
-解救皇后	http://www.wesane.com/game/121    
-守卫高地	http://www.wesane.com/game/61    
-姜太公钓鱼	http://www.wesane.com/game/92    
-别顶方块	http://www.wesane.com/game/86    
-青蛙走格子	http://www.wesane.com/game/46    
-水管工	http://www.wesane.com/game/49    
-凑成K	http://www.wesane.com/game/16    
-丢甜甜圈	http://www.wesane.com/game/48    
-解锁糖果	http://www.wesane.com/game/3    
-五子棋	http://www.wesane.com/game/27    
-颠球	http://www.wesane.com/game/29    
-填图形	http://www.wesane.com/game/4    
-打飞碟	http://www.wesane.com/game/5    
-顶帽子	http://www.wesane.com/game/8    
-无限穿越	http://www.wesane.com/game/10    
-2048	http://www.wesane.com/game/12    
-盖大楼	http://www.wesane.com/game/14    
-钻火圈	http://www.wesane.com/game/20    
-苹果菠萝笔	http://www.wesane.com/game/21    
-拳击	http://www.wesane.com/game/25    
-推拉消	http://www.wesane.com/game/28    
-喂怪兽	http://www.wesane.com/game/30    
-小羊过河	http://www.wesane.com/game/31    
-喂小猫	http://www.wesane.com/game/32    
-补位消消	http://www.wesane.com/game/33    
-下100层	http://www.wesane.com/game/35    
-篮板王	http://www.wesane.com/game/36    
-拉面馆	http://www.wesane.com/game/37    
-摆成十	http://www.wesane.com/game/38    
-找茬	http://www.wesane.com/game/40    
-落乌龟	http://www.wesane.com/game/43    
-语文版数学题	http://www.wesane.com/game/45    
-南极大冒险	http://www.wesane.com/game/47    
-城市篮球	http://www.wesane.com/game/51    
-西部对决	http://www.wesane.com/game/53    
-解救木头人	http://www.wesane.com/game/54    
-小鱼连连	http://www.wesane.com/game/56    
-填格子	http://www.wesane.com/game/58    
-高手对决	http://www.wesane.com/game/60    
-炫彩桌球	http://www.wesane.com/game/64    
-玩手机	http://www.wesane.com/game/65    
-跳绳	http://www.wesane.com/game/66    
-击鼓传花	http://www.wesane.com/game/67    
-排队	http://www.wesane.com/game/72    
-穿针引线	http://www.wesane.com/game/73    
-井底之蛙	http://www.wesane.com/game/74    
-套牛	http://www.wesane.com/game/78    
-一起开心	http://www.wesane.com/game/80    
-送外卖	http://www.wesane.com/game/82    
-切方块	http://www.wesane.com/game/83    
-数独	http://www.wesane.com/game/84    
-一笔画	http://www.wesane.com/game/90    
-点灯	http://www.wesane.com/game/94    
-智慧数字	http://www.wesane.com/game/95    
-同化泡泡	http://www.wesane.com/game/97    
-信任游戏	http://www.wesane.com/game/100    
-下落消	http://www.wesane.com/game/102    
-24点	http://www.wesane.com/game/106    
-漏网之鱼	http://www.wesane.com/game/108    
-六角围棋	http://www.wesane.com/game/110    
-百花绽放	http://www.wesane.com/game/112    
-灌溉农田	http://www.wesane.com/game/115    
-潜行	http://www.wesane.com/game/116    
-汉诺塔	http://www.wesane.com/game/122    
-反射激光	http://www.wesane.com/game/129    
-消灭病菌	http://www.wesane.com/game/131    
-跳棋	http://www.wesane.com/game/132    
-见缝插刀	http://www.wesane.com/game/137    
-排排消	http://www.wesane.com/game/138    
-伸缩骰子	http://www.wesane.com/game/141    
-交叉线	http://www.wesane.com/game/142    
-叠图案	http://www.wesane.com/game/147    
-消糖果	http://www.wesane.com/game/151    
-解锁星星	http://www.wesane.com/game/153    
-喂食小狗	http://www.wesane.com/game/161    
-企鹅冒险	http://www.wesane.com/game/163    
-追星	http://www.wesane.com/game/164    
-弹球扣篮	http://www.wesane.com/game/165    
-跃动篮球	http://www.wesane.com/game/167    
-保卫水果	http://www.wesane.com/game/168    
-爱猜灯谜	http://www.wesane.com/game/170    
-心心相印	http://www.wesane.com/game/173    
-舞狮	http://www.wesane.com/game/174    
-炫酷飘移	http://www.wesane.com/game/175    
-飞机大战	http://www.wesane.com/game/176    
-智慧树	http://www.wesane.com/game/178    
-文争武斗	http://www.wesane.com/game/182    
-太极小球	http://www.wesane.com/game/183    
-智能娃娃机	http://www.wesane.com/game/184    
-加减乘除	http://www.wesane.com/game/185    
-连击48	http://www.wesane.com/game/186    
-鲤鱼跃龙门	http://www.wesane.com/game/187    
-推推消	http://www.wesane.com/game/188    
-不死卡牌	http://www.wesane.com/game/190    
-时空静止	http://www.wesane.com/game/191    
-守卫忍村	http://www.wesane.com/game/192    
-一指弹	http://www.wesane.com/game/193    
-冰壶	http://www.wesane.com/game/194    
-累加方块	http://www.wesane.com/game/196    
-几何塔	http://www.wesane.com/game/197    
-百家姓	http://www.wesane.com/game/198    
-行星	http://www.wesane.com/game/199    
-滑板小子	http://www.wesane.com/game/200    
-狂野飙车	http://www.wesane.com/game/203    
-变色冲撞	http://www.wesane.com/game/204    
-刺猬回家	http://www.wesane.com/game/205    
-像素积木	http://www.wesane.com/game/206    
-跃动精灵	http://www.wesane.com/game/207    
-美味拼盘	http://www.wesane.com/game/208    
-当红不让	http://www.wesane.com/game/211    
-打豆豆	http://www.wesane.com/game/213    
-寿司拼盘	http://www.wesane.com/game/214    
-打气球	http://www.wesane.com/game/216    
-一笔画完	http://www.wesane.com/game/217    
-智力问答	http://www.wesane.com/game/218    
-平衡城市	http://www.wesane.com/game/220    
-旋转手枪	http://www.wesane.com/game/223    
-乌鸦喝水大赛	http://www.wesane.com/game/224    
-回家的路	http://www.wesane.com/game/225    
-小小粉刷匠	http://www.wesane.com/game/226    
-勇者之心	http://www.wesane.com/game/227    
-飞吧!小鸡	http://www.wesane.com/game/228    
-鸡要过马路	http://www.wesane.com/game/229    
-特工英雄	http://www.wesane.com/game/230    
-河豚大作战	http://www.wesane.com/game/231    
-踩蘑菇	http://www.wesane.com/game/232    
-超级堆积木	http://www.wesane.com/game/233    
-贪吃猫	http://www.wesane.com/game/234    
-摆积木	http://www.wesane.com/game/236    
-割草大作战	http://www.wesane.com/game/237    
-指尖投篮	http://www.wesane.com/game/238    
-打砖块	http://www.wesane.com/game/240    
-跳跳鱼	http://www.wesane.com/game/241    
-喂猫	http://www.wesane.com/game/242    
-温酒斩方块	http://www.wesane.com/game/243    
-拔胡子	http://www.wesane.com/game/244    
-急速停车	http://www.wesane.com/game/245    
-笨鸟弹射	http://www.wesane.com/game/246    
-方块翻一翻	http://www.wesane.com/game/247    
-企鹅滑雪场	http://www.wesane.com/game/248    
-五谷丰登	http://www.wesane.com/game/249    
-兔子回家	http://www.wesane.com/game/250    
-田忌赛猪	http://www.wesane.com/game/251    
-各回各家	http://www.wesane.com/game/252    
-点球大战	http://www.wesane.com/game/253    
-画这里	http://www.wesane.com/game/254    
-蜂巢密码	http://www.wesane.com/game/256    
-色块堆叠	http://www.wesane.com/game/258    
-六角加加	http://www.wesane.com/game/261    
-交换宝石	http://www.wesane.com/game/265    
-切菜达人	http://www.wesane.com/game/266    
-哪个重	http://www.wesane.com/game/267    
-海底逃生	http://www.wesane.com/game/269    
-交通辅导员	http://www.wesane.com/game/272    
-冰凉夏日	http://www.wesane.com/game/273    
-堵色	http://www.wesane.com/game/274    
-保护绿色	http://www.wesane.com/game/275    
-画线蜜蜂	http://www.wesane.com/game/276    
-碰碰车	http://www.wesane.com/game/277    
-小鸡快跑	http://www.wesane.com/game/278    
-挤柠檬	http://www.wesane.com/game/279    
-保护飞船	http://www.wesane.com/game/280    
-病毒消消	http://www.wesane.com/game/281    
-一往无前	http://www.wesane.com/game/282    
-三只小熊	http://www.wesane.com/game/283    
-画线汽车	http://www.wesane.com/game/284    
-又消又除	http://www.wesane.com/game/286    
-疯狂串吧	http://www.wesane.com/game/287    
-环球旅行	http://www.wesane.com/game/288    
-拼成一线	http://www.wesane.com/game/289    
-挪箱子	http://www.wesane.com/game/290    
-颠倒黑白	http://www.wesane.com/game/291    
-聚合消消	http://www.wesane.com/game/292    
-台球合合	http://www.wesane.com/game/293    
-天花乱坠	http://www.wesane.com/game/294    
-泡泡天平	http://www.wesane.com/game/296    
-星星点灯	http://www.wesane.com/game/297    
-捕捞海螺	http://www.wesane.com/game/298    
-爆炸西瓜	http://www.wesane.com/game/299    
-就要这么高	http://www.wesane.com/game/300    
-极限网球	http://www.wesane.com/game/301    
-旋转火锅	http://www.wesane.com/game/302    
-松鼠求生	http://www.wesane.com/game/303    
-迷幻泡泡	http://www.wesane.com/game/304    
-天天数钱	http://www.wesane.com/game/305    
-推拉彩珠	http://www.wesane.com/game/306    
-摆一块	http://www.wesane.com/game/307    
-彩虹猫	http://www.wesane.com/game/308    
-鼹鼠的故事	http://www.wesane.com/game/309    
-千杯不醉	http://www.wesane.com/game/310    
-魔方填块	http://www.wesane.com/game/311    
-河马消消	http://www.wesane.com/game/312    
-推糖果	http://www.wesane.com/game/313    
-穿越算盘	http://www.wesane.com/game/314    
-滑动解锁	http://www.wesane.com/game/315    
-染色苹果	http://www.wesane.com/game/316    
-逆流而上	http://www.wesane.com/game/317    
-躲猫猫	http://www.wesane.com/game/318    
-保护三叶草	http://www.wesane.com/game/319    
-小兔跳跳	http://www.wesane.com/game/320    
-冰壶消消	http://www.wesane.com/game/321    
-钩锁攀岩	http://www.wesane.com/game/322    
-路障大师	http://www.wesane.com/game/323    
-精准掷刀	http://www.wesane.com/game/324    
-勇者斗恶龙	http://www.wesane.com/game/325    
-画线飞机	http://www.wesane.com/game/326    
-猫头鹰回家	http://www.wesane.com/game/327    
-弹跳投篮	http://www.wesane.com/game/328    
-乒乓球	http://www.wesane.com/game/329    
-逻辑磁铁	http://www.wesane.com/game/331    
-画地为牢	http://www.wesane.com/game/332    
-一个不落	http://www.wesane.com/game/333    
-太空旅行	http://www.wesane.com/game/334    
-叠方块	http://www.wesane.com/game/335    
-极限轮滑	http://www.wesane.com/game/336    
-千杯不醉(升级版)	http://www.wesane.com/game/337    
-跃起吧!	http://www.wesane.com/game/339    
-消灭外星人	http://www.wesane.com/game/340    
-小小冒险家	http://www.wesane.com/game/341    
-夜晚烟火	http://www.wesane.com/game/342    
-光线反射	http://www.wesane.com/game/345    
-果冻塔	http://www.wesane.com/game/346    
-反复横跳	http://www.wesane.com/game/347    
-分豆子	http://www.wesane.com/game/348    
-长路漫漫	http://www.wesane.com/game/349    
-堆冰块	http://www.wesane.com/game/352    
-摆上就消	http://www.wesane.com/game/353    
-甜心物语	http://www.wesane.com/game/354    
-森林狂欢季	http://www.wesane.com/game/356    
-保护雪人	http://www.wesane.com/game/359    
-糖果碰碰车	http://www.wesane.com/game/360    
-冲呀小鸡	http://www.wesane.com/game/362    
-爆竹声声	http://www.wesane.com/game/363    
-动物跳高	http://www.wesane.com/game/364    
-漂流之战	http://www.wesane.com/game/365    
-丘比特之箭2	http://www.wesane.com/game/366    
-极速战车	http://www.wesane.com/game/367    
-救人	http://www.wesane.com/game/368    
-球球合合	http://www.wesane.com/game/371    
-同化	http://www.wesane.com/game/372    
-点亮星空	http://www.wesane.com/game/373    
-弹跳篮球	http://www.wesane.com/game/375    
-宝石消消	http://www.wesane.com/game/376    
-智能加工厂	http://www.wesane.com/game/377    
-跳水	http://www.wesane.com/game/379    
-拔苗助长	http://www.wesane.com/game/382    
-打包礼品	http://www.wesane.com/game/383    
-针灸大师	http://www.wesane.com/game/384    
-姻缘一线牵	http://www.wesane.com/game/386    
-推雪球	http://www.wesane.com/game/389    
-收割麦田	http://www.wesane.com/game/390    
-翻牌	http://www.wesane.com/game/392    
-劈个叉吧	http://www.wesane.com/game/394    
-引力	http://www.wesane.com/game/396    
-水果大师	http://www.wesane.com/game/398    
-护花使者	http://www.wesane.com/game/399    
-牧羊犬	http://www.wesane.com/game/405    
-神出鬼没	http://www.wesane.com/game/408    
-滴水穿石	http://www.wesane.com/game/410    
-弹球进洞	http://www.wesane.com/game/411    
-海星守卫战	http://www.wesane.com/game/412    
-仓鼠球	http://www.wesane.com/game/413    
-大红灯笼	http://www.wesane.com/game/415    
-甜甜圈大冒险	http://www.wesane.com/game/416    
-小红帽回家	http://www.wesane.com/game/417    
-女娲补天	http://www.wesane.com/game/418    
-敲钉子	http://www.wesane.com/game/419    
-平步青云	http://www.wesane.com/game/420    
-解锁象棋	http://www.wesane.com/game/421    
-拍钉子	http://www.wesane.com/game/422    
-红豆包	http://www.wesane.com/game/426    
-画线赛道	http://www.wesane.com/game/427    
-做寿司	http://www.wesane.com/game/428    
-串糖葫芦	http://www.wesane.com/game/429    
-扔飞镖	http://www.wesane.com/game/430    
-织布机	http://www.wesane.com/game/431    
-推拉合十	http://www.wesane.com/game/432    
-堆积大王	http://www.wesane.com/game/433    
-越描越黑	http://www.wesane.com/game/434    
-一刀两断	http://www.wesane.com/game/435    
-激光枪	http://www.wesane.com/game/437    
-一个不留	http://www.wesane.com/game/439    
-拍蚊子	http://www.wesane.com/game/440    
-跳跃包子	http://www.wesane.com/game/441    
-射击水果	http://www.wesane.com/game/442    
-喜从天降	http://www.wesane.com/game/443    
-不倒翁	http://www.wesane.com/game/444    
-推球进洞	http://www.wesane.com/game/447    
-填充方块	http://www.wesane.com/game/448    
-撸苞米	http://www.wesane.com/game/449    
-盖碗茶	http://www.wesane.com/game/450    
-爬山虎	http://www.wesane.com/game/451    
-石油大盗	http://www.wesane.com/game/452    
-量身高	http://www.wesane.com/game/453    
-青蛙	http://www.wesane.com/game/454    
-卖饼翁	http://www.wesane.com/game/455    
-最后一发	http://www.wesane.com/game/456    
-一碗水	http://www.wesane.com/game/457    
-夹心饼干	http://www.wesane.com/game/458    
-曹冲称象	http://www.wesane.com/game/459    
-沙里淘金	http://www.wesane.com/game/460    
-三位真火	http://www.wesane.com/game/463    
-盲人摸象	http://www.wesane.com/game/464    
-切割机	http://www.wesane.com/game/465    
-激流勇进	http://www.wesane.com/game/466    
-大白鲨	http://www.wesane.com/game/467    
-浇田	http://www.wesane.com/game/468    
-同时下落	http://www.wesane.com/game/469    
-补口袋	http://www.wesane.com/game/473    
-磁铁兄弟	http://www.wesane.com/game/475    
-飞蛾扑火	http://www.wesane.com/game/476    
-丝绸之路	http://www.wesane.com/game/478    
-顶天立地	http://www.wesane.com/game/479    
-抡大锤	http://www.wesane.com/game/480    
-拔萝卜	http://www.wesane.com/game/481    
-细胞融合	http://www.wesane.com/game/482    
-太空跳跃	http://www.wesane.com/game/485    
-彩虹弹球	http://www.wesane.com/game/488    
-一根筋	http://www.wesane.com/game/489    
-合并果冻	http://www.wesane.com/game/490    
-鱼吐泡泡	http://www.wesane.com/game/491    
-四分五裂	http://www.wesane.com/game/492    
-破冰行动	http://www.wesane.com/game/494    
-充电	http://www.wesane.com/game/495    
-引流	http://www.wesane.com/game/497    
-跳跃篮球	http://www.wesane.com/game/498    
-弩箭	http://www.wesane.com/game/500    
-徒手劈砖	http://www.wesane.com/game/501    
-爱吃彩虹糖	http://www.wesane.com/game/502    
-劈柴胡同	http://www.wesane.com/game/503    
-俄罗斯套娃	http://www.wesane.com/game/504    
-三味书屋	http://www.wesane.com/game/505    
-寸拳	http://www.wesane.com/game/506    
-三人成虎	http://www.wesane.com/game/507    
-丢沙包	http://www.wesane.com/game/508    
-做汉堡	http://www.wesane.com/game/509    
-巨人花园	http://www.wesane.com/game/511    
-爆炸河豚	http://www.wesane.com/game/513    
-坠落方块	http://www.wesane.com/game/514    
-扑克消消	http://www.wesane.com/game/515    
-投石车	http://www.wesane.com/game/516    
-加点柠檬	http://www.wesane.com/game/517    
-弹跳捕鱼	http://www.wesane.com/game/518    
-炸弹泡泡	http://www.wesane.com/game/519    
-狼来了	http://www.wesane.com/game/520    
-挤牙膏	http://www.wesane.com/game/521    
-砸玻璃	http://www.wesane.com/game/522    
-割麦子	http://www.wesane.com/game/523    
-捕蝇草	http://www.wesane.com/game/524    
-啄木鸟	http://www.wesane.com/game/526    
-惊心动魄	http://www.wesane.com/game/528    
-牵线搭桥	http://www.wesane.com/game/529    
-摆宝石	http://www.wesane.com/game/532    
-冰封宝石	http://www.wesane.com/game/533    
-吹气投篮	http://www.wesane.com/game/535    
-跳火车	http://www.wesane.com/game/539    
-花团锦簇	http://www.wesane.com/game/541    
-久旱逢甘霖	http://www.wesane.com/game/542    
-成语接龙	http://www.wesane.com/game/543    
-旋转烧烤	http://www.wesane.com/game/544    
-腰鼓达人	http://www.wesane.com/game/545    
-烧烤达人	http://www.wesane.com/game/547    
-冲出重围	http://www.wesane.com/game/549    
-黄鸡跳台	http://www.wesane.com/game/551    
-屁屁超人	http://www.wesane.com/game/552    
-齐头并进	http://www.wesane.com/game/553    
-鲤鱼跃龙门	http://www.wesane.com/game/554    
-见招拆招	http://www.wesane.com/game/555    
-风火轮	http://www.wesane.com/game/556    
-合成糖果	http://www.wesane.com/game/558    
-吃豆蛇	http://www.wesane.com/game/559    
-下饺子	http://www.wesane.com/game/563    
-植发	http://www.wesane.com/game/565    
-方块塔	http://www.wesane.com/game/567    
-马戏团秋千	http://www.wesane.com/game/571    
-超级棒球王	http://www.wesane.com/game/572    
-百米轮滑	http://www.wesane.com/game/573    
-弹月饼	http://www.wesane.com/game/574    
-腾空飞跃	http://www.wesane.com/game/575    
-孵小鸡	http://www.wesane.com/game/576    
-生日快乐	http://www.wesane.com/game/578    
-街道保龄球	http://www.wesane.com/game/579    
-保护鸡蛋	http://www.wesane.com/game/580    
-三羊开泰	http://www.wesane.com/game/581    
-播种	http://www.wesane.com/game/582    
-连笔翻牌	http://www.wesane.com/game/583    
-打车	http://www.wesane.com/game/584    
-旋转果盘	http://www.wesane.com/game/585    
-躲雨	http://www.wesane.com/game/588    
-下车	http://www.wesane.com/game/589    
-一言九鼎	http://www.wesane.com/game/591    
-秋后奶茶	http://www.wesane.com/game/592    
-肉包子打狗	http://www.wesane.com/game/593    
-充电机器人	http://www.wesane.com/game/594    
-瓜果蔬菜	http://www.wesane.com/game/595    
-虎口拔牙	http://www.wesane.com/game/597    
-守护花园	http://www.wesane.com/game/598    
-水果泡泡	http://www.wesane.com/game/599    
-打块块	http://www.wesane.com/game/600    
-粘羊毛	http://www.wesane.com/game/601    
-烧烤店	http://www.wesane.com/game/602    
-水工厂	http://www.wesane.com/game/603    
-三毛	http://www.wesane.com/game/604    
-守卫家园	http://www.wesane.com/game/607    
-砌墙	http://www.wesane.com/game/608    
-小刀翻跟头	http://www.wesane.com/game/611    
-三点一线	http://www.wesane.com/game/612    
-爆炸果冻	http://www.wesane.com/game/613    
-旋转棒棒糖	http://www.wesane.com/game/615    
-标枪接力	http://www.wesane.com/game/616    
-涂鸦小鸡	http://www.wesane.com/game/617    
-班门弄斧	http://www.wesane.com/game/618    
-分菜	http://www.wesane.com/game/620    
-保护公主	http://www.wesane.com/game/621    
-伪装大师	http://www.wesane.com/game/622    
-引爆豌豆	http://www.wesane.com/game/623    
-12点	http://www.wesane.com/game/624    
-射弹珠	http://www.wesane.com/game/625    
-奶茶大满贯	http://www.wesane.com/game/626    
-妙笔生花	http://www.wesane.com/game/627    
-大丰收	http://www.wesane.com/game/629    
-造酒车间	http://www.wesane.com/game/630    
-信手拈来	http://www.wesane.com/game/634    
-动物饼干	http://www.wesane.com/game/637    
-拯救阿斗	http://www.wesane.com/game/638    
-孵鸡蛋	http://www.wesane.com/game/639    
-篮球接力	http://www.wesane.com/game/642    
-哪吒闹地府	http://www.wesane.com/game/643    
-百发百中	http://www.wesane.com/game/644    
-美味汉堡	http://www.wesane.com/game/645    
-三打白骨精	http://www.wesane.com/game/646    
-甜品屋	http://www.wesane.com/game/647    
-四喜丸子	http://www.wesane.com/game/651    
-小蜜蜂	http://www.wesane.com/game/652    
-沾满巧克力	http://www.wesane.com/game/656    
-爆炸橙子	http://www.wesane.com/game/657    
-合成小芝麻	http://www.wesane.com/game/658    
-铁板烧	http://www.wesane.com/game/659    
-砸核桃	http://www.wesane.com/game/660    
-砸碎金蛋	http://www.wesane.com/game/661    
-传球射门	http://www.wesane.com/game/662    
-骰子接龙	http://www.wesane.com/game/663    
-合成大福字	http://www.wesane.com/game/664    
-过马路	http://www.wesane.com/game/665    
-贴对联	http://www.wesane.com/game/667    
-点个毛线	http://www.wesane.com/game/666    
-什锦汤圆	http://www.wesane.com/game/668    
-接杯水	http://www.wesane.com/game/669    
-爆炸大南瓜	http://www.wesane.com/game/670    
-扔垃圾	http://www.wesane.com/game/671    
-理发师	http://www.wesane.com/game/674    
-泡泡鱼	http://www.wesane.com/game/672    
-正品专家	http://www.wesane.com/game/673    
-洒水车	http://www.wesane.com/game/675    
-一箭穿心	http://www.wesane.com/game/676    
-交换冰淇淋	http://www.wesane.com/game/678    
-神笔马良	http://www.wesane.com/game/681    
-堆方块	http://www.wesane.com/game/682    
-生肖串串	http://www.wesane.com/game/683    
-打开保险箱	http://www.wesane.com/game/686    
-口红翻跟头	http://www.wesane.com/game/687    
-拼一拼	http://www.wesane.com/game/688    
-消来消去	http://www.wesane.com/game/689    
-四叶草	http://www.wesane.com/game/690    
-纸牌对对消	http://www.wesane.com/game/692    
-我要吃零食	http://www.wesane.com/game/693    
-打开礼物	http://www.wesane.com/game/695    
-捕捉大鲨鱼	http://www.wesane.com/game/697    
-点心消消	http://www.wesane.com/game/699    
-后羿射日	http://www.wesane.com/game/700    
-翻转体操	http://www.wesane.com/game/703    
-拼花朵	http://www.wesane.com/game/704    
-快乐牧场	http://www.wesane.com/game/707    
-一网打尽	http://www.wesane.com/game/709    
-汉堡大王	http://www.wesane.com/game/710    
-果盘合合	http://www.wesane.com/game/711    
-削掉它的皮	http://www.wesane.com/game/714    
-破冰消方块	http://www.wesane.com/game/713    
-宝石接龙	http://www.wesane.com/game/715    
-合成小怪物	http://www.wesane.com/game/716    
-跳高高	http://www.wesane.com/game/717    
-合成大蛋糕	http://www.wesane.com/game/719    
-磁铁吸吸	http://www.wesane.com/game/720    
-旅行巴士	http://www.wesane.com/game/722    
-节节高升	http://www.wesane.com/game/721    
-纸牌无限接龙	http://www.wesane.com/game/723    
-合成王牌	http://www.wesane.com/game/724    
-果子进筐	http://www.wesane.com/game/725    
-比翼双飞	http://www.wesane.com/game/727    
-拿到礼物	http://www.wesane.com/game/728    
-弹成大西瓜	http://www.wesane.com/game/729    
-云霄飞机	http://www.wesane.com/game/730    
-迷你高尔夫	http://www.wesane.com/game/731    
-果冻树	http://www.wesane.com/game/733    
-水果篮子	http://www.wesane.com/game/736    
-管道大师	http://www.wesane.com/game/737    
-百花齐放	http://www.wesane.com/game/740    
-转转赛车	http://www.wesane.com/game/741    
-打老鼠	http://www.wesane.com/game/742    
-宝玉连珠	http://www.wesane.com/game/743    
-心连心	http://www.wesane.com/game/744    
-小狗吃汉堡	http://www.wesane.com/game/745    
-一夜暴富	http://www.wesane.com/game/746    
-装鸡蛋	http://www.wesane.com/game/748    
-宝石交换	http://www.wesane.com/game/749    
-弹力桌⚪	http://www.wesane.com/game/750    
-合成大宝石	http://www.wesane.com/game/752    
-爪爪乐	http://www.wesane.com/game/755    
-炸尸	http://www.wesane.com/game/756    
-大炮射门	http://www.wesane.com/game/760    
-拆大楼	http://www.wesane.com/game/763    
-花开富贵	http://www.wesane.com/game/765    
-团圆饭	http://www.wesane.com/game/768    
-点石成金	http://www.wesane.com/game/767    
-砍瓜切菜	http://www.wesane.com/game/770    
-指认罪犯	http://www.wesane.com/game/771    
-弹弹糖	http://www.wesane.com/game/772    
-躲猫猫	http://www.wesane.com/game/773    
-开花	http://www.wesane.com/game/774    
-大胃王	http://www.wesane.com/game/775    
-小兔子吃萝卜	http://www.wesane.com/game/776    
-赶鸭子	http://www.wesane.com/game/779    
-观光车	http://www.wesane.com/game/783    
-亡羊补牢	http://www.wesane.com/game/785    
-甜蜜蜜	http://www.wesane.com/game/786    
-打鸭子	http://www.wesane.com/game/787    
-大铁锤	http://www.wesane.com/game/788    
-七色花	http://www.wesane.com/game/789    
-甜甜圈	http://www.wesane.com/game/790    
-疯狂切水果	http://www.wesane.com/game/792    
-横冲直撞	http://www.wesane.com/game/794    
-家常菜	http://www.wesane.com/game/796    
-打鸡蛋	http://www.wesane.com/game/797    
-小红帽	http://www.wesane.com/game/798    
-套个甜甜圈	http://www.wesane.com/game/799    
-做汉堡	http://www.wesane.com/game/800    
-开心豆	http://www.wesane.com/game/801    
-彩虹蛋糕	http://www.wesane.com/game/802    
-蜂恋花	http://www.wesane.com/game/803    
-种瓜得瓜	http://www.wesane.com/game/804    
-回收易拉罐	http://www.wesane.com/game/806    
-生肖派对	http://www.wesane.com/game/807    
-接篮球	http://www.wesane.com/game/810    
-动物举高高	http://www.wesane.com/game/812    
-平衡可乐	http://www.wesane.com/game/813    
-合成大王	http://www.wesane.com/game/814    
-打掉果子	http://www.wesane.com/game/815    
-串糖葫芦	http://www.wesane.com/game/817    
-剥玉米	http://www.wesane.com/game/820    
-终极宝石	http://www.wesane.com/game/822    
-合成棒棒糖	http://www.wesane.com/game/823    
-秦王绕柱	http://www.wesane.com/game/824    
-节奏唱片	http://www.wesane.com/game/825    
-自由接龙	http://www.wesane.com/game/826    
-宝石大挪移	http://www.wesane.com/game/828    
-打包	http://www.wesane.com/game/830    
-并道发车	http://www.wesane.com/game/831    
-爆炸可乐	http://www.wesane.com/game/832    
-切菜	http://www.wesane.com/game/833    
-刮刮卡	http://www.wesane.com/game/834    
-进化玻璃球	http://www.wesane.com/game/835    
-螳螂捕蝉	http://www.wesane.com/game/836    
-魔术师	http://www.wesane.com/game/837    
-合成恐龙蛋	http://www.wesane.com/game/838    
-转盘小丸子	http://www.wesane.com/game/840    
-糖果满天飞	http://www.wesane.com/game/841    
-克隆鸡蛋	http://www.wesane.com/game/842    
-逗猫	http://www.wesane.com/game/843    
-我的停车场	http://www.wesane.com/game/846    
-打雪仗	http://www.wesane.com/game/847    
-小鱼找对象	http://www.wesane.com/game/849    
-植树造林	http://www.wesane.com/game/850    
-随机染发	http://www.wesane.com/game/851    
-水果爆冰球	http://www.wesane.com/game/852    
-捉迷藏	http://www.wesane.com/game/853    
-插花瓣	http://www.wesane.com/game/854    
-下饺子	http://www.wesane.com/game/855    
-宝石魔方	http://www.wesane.com/game/856    
-彗星撞地球	http://www.wesane.com/game/857    
-铁板大鱿鱼	http://www.wesane.com/game/859    
-深海娃娃机	http://www.wesane.com/game/860    
-打碎瓶子	http://www.wesane.com/game/861    
-蛋打鸡飞	http://www.wesane.com/game/863    
-烟花缭乱	http://www.wesane.com/game/864    
-甜蜜松饼屋	http://www.wesane.com/game/865    
-小鸡捉虫吃	http://www.wesane.com/game/866    
-旋转赛车道	http://www.wesane.com/game/867    
-疯狂赛道	http://www.wesane.com/game/869    
-转个西瓜	http://www.wesane.com/game/870    
-买下游乐园	http://www.wesane.com/game/871    
-挤地铁	http://www.wesane.com/game/872    
-包饺子	http://www.wesane.com/game/873    
-集体婚礼	http://www.wesane.com/game/875    
-地道战	http://www.wesane.com/game/876    
-水果转盘	http://www.wesane.com/game/877    
-育龙达人	http://www.wesane.com/game/879    
-弹花一现	http://www.wesane.com/game/881    
-腌咸菜	http://www.wesane.com/game/882    
-小鸭子过河	http://www.wesane.com/game/883    
-蝶恋花	http://www.wesane.com/game/884    
-剪指甲	http://www.wesane.com/game/885    
-挂满礼物	http://www.wesane.com/game/886    
-烧烤大排档	http://www.wesane.com/game/887    
-水果半对半	http://www.wesane.com/game/888    
-碰碰纸牌	http://www.wesane.com/game/889    
-倒酒	http://www.wesane.com/game/890    
-挖宝	http://www.wesane.com/game/891    
-凿壁借光	http://www.wesane.com/game/893    
-打碎蔬菜	http://www.wesane.com/game/892    
-捡松果	http://www.wesane.com/game/894    
-兵临城下	http://www.wesane.com/game/895    
-拆盲盒	http://www.wesane.com/game/896    
-玩转圣诞	http://www.wesane.com/game/898    
-水果炸弹	http://www.wesane.com/game/897    
-完美出炉	http://www.wesane.com/game/899    
-开花结果	http://www.wesane.com/game/900    
-生肖争霸	http://www.wesane.com/game/902    
-芝麻开门	http://www.wesane.com/game/903    
-荤素搭配	http://www.wesane.com/game/904    
-画地为牢	http://www.wesane.com/game/905    
-定位发车	http://www.wesane.com/game/906    
-一刀两断	http://www.wesane.com/game/907    
-完美停车	http://www.wesane.com/game/909    
-暴力厨房	http://www.wesane.com/game/911    
-解救王子	http://www.wesane.com/game/915    
-积少成多	http://www.wesane.com/game/916    
-奇趣动物园	http://www.wesane.com/game/917    
-宠物星球	http://www.wesane.com/game/919    
-疯狂串烧	http://www.wesane.com/game/922    
-奶奶分果子	http://www.wesane.com/game/923    
-合成金龙鱼	http://www.wesane.com/game/924    
-绝不露馅	http://www.wesane.com/game/926    
-顺水推舟	http://www.wesane.com/game/929    
-三只小猪	http://www.wesane.com/game/930    
-制作爆米花	http://www.wesane.com/game/931    
-五谷丰登	http://www.wesane.com/game/933    
-抛砖引玉	http://www.wesane.com/game/935    
-吉星高照	http://www.wesane.com/game/936    
-夺宝船长	http://www.wesane.com/game/937    
-占领鱼塘	http://www.wesane.com/game/938    
-奇葩滑雪	http://www.wesane.com/game/939    
-跳出五指山	http://www.wesane.com/game/942    
-百鸟朝凤	http://www.wesane.com/game/943    
-在逃公主	http://www.wesane.com/game/945    
-来杯牛奶	http://www.wesane.com/game/944    
-猪八戒背媳妇	http://www.wesane.com/game/946    
-跃龙门	http://www.wesane.com/game/947    
-神龙对对碰	http://www.wesane.com/game/952    
-天上掉馅饼	http://www.wesane.com/game/954    
-步步生花	http://www.wesane.com/game/956    
-糖果到家	http://www.wesane.com/game/957    
-忙碌小牛仔	http://www.wesane.com/game/959    
-我的太阳	http://www.wesane.com/game/960    
-挖石油	http://www.wesane.com/game/961    
-龙抬头	http://www.wesane.com/game/962    
-泡泡纸	http://www.wesane.com/game/964    
-快刀厨房	http://www.wesane.com/game/965    
-暴打椰子	http://www.wesane.com/game/966    
-百击百中	http://www.wesane.com/game/967    
-杂耍转球	http://www.wesane.com/game/969    
-看看谁不动	http://www.wesane.com/game/970    
-召唤熊猫	http://www.wesane.com/game/971    
-唤醒花仙子	http://www.wesane.com/game/972    
-合成大汽车	http://www.wesane.com/game/977    
-超级汉堡	http://www.wesane.com/game/978    
-点兵点将	http://www.wesane.com/game/979    
-八戒救悟空	http://www.wesane.com/game/980    
-金蟾献瑞	http://www.wesane.com/game/981    
-狐狸和葡萄	http://www.wesane.com/game/982    
-麻雀变凤凰	http://www.wesane.com/game/983    
-即刻出发	http://www.wesane.com/game/984    
-生根	http://www.wesane.com/game/985    
-抢地盘	http://www.wesane.com/game/986    
+1	魔方拆拆乐	http://www.wesane.com/game/976  
+2	水果射手	http://www.wesane.com/game/950  
+3	番茄农场	http://www.wesane.com/game/968  
+4	葡萄变西瓜	http://www.wesane.com/game/974  
+5	收集蜂蜜	http://www.wesane.com/game/927  
+6	山楂串	http://www.wesane.com/game/848  
+7	水果大清仓	http://www.wesane.com/game/925  
+8	水母之王	http://www.wesane.com/game/955  
+9	解救丘比特	http://www.wesane.com/game/940  
+10	母鸡下蛋	http://www.wesane.com/game/705  
+11	虎虎生威	http://www.wesane.com/game/934  
+12	哥俩好	http://www.wesane.com/game/351  
+13	锦上添花	http://www.wesane.com/game/42  
+14	合成大西瓜	http://www.wesane.com/game/654  
+15	车水马龙	http://www.wesane.com/game/684  
+16	召唤神龙	http://www.wesane.com/game/910  
+17	去郊游	http://www.wesane.com/game/702  
+18	回家过年	http://www.wesane.com/game/928  
+19	牛气冲天	http://www.wesane.com/game/369  
+20	建造通天塔	http://www.wesane.com/game/816  
+21	卖油翁	http://www.wesane.com/game/88  
+22	飞天软糖	http://www.wesane.com/game/918  
+23	睡莲	http://www.wesane.com/game/631  
+24	百米钉钉	http://www.wesane.com/game/912  
+25	恭喜发财	http://www.wesane.com/game/640  
+26	蚂蚁搬家	http://www.wesane.com/game/57  
+27	女皇登基	http://www.wesane.com/game/874  
+28	抓螃蟹	http://www.wesane.com/game/862  
+29	神枪手	http://www.wesane.com/game/818  
+30	串串香	http://www.wesane.com/game/781  
+31	枪王之战	http://www.wesane.com/game/493  
+32	花朵大作战	http://www.wesane.com/game/739  
+33	遍地开花	http://www.wesane.com/game/759  
+34	龟龟滑雪	http://www.wesane.com/game/793  
+35	按序停车	http://www.wesane.com/game/649  
+36	纸牌对对碰	http://www.wesane.com/game/701  
+37	甜点乐园	http://www.wesane.com/game/805  
+38	交换数字	http://www.wesane.com/game/735  
+39	果缤纷	http://www.wesane.com/game/821  
+40	大鱼	http://www.wesane.com/game/811  
+41	弹金币	http://www.wesane.com/game/808  
+42	整理大师	http://www.wesane.com/game/819  
+43	解救公主	http://www.wesane.com/game/782  
+44	合成大南瓜	http://www.wesane.com/game/795  
+45	纸牌合十	http://www.wesane.com/game/732  
+46	串串丸子	http://www.wesane.com/game/784  
+47	弹珠碰碰	http://www.wesane.com/game/780  
+48	上菜	http://www.wesane.com/game/758  
+49	旅行气球	http://www.wesane.com/game/827  
+50	水果碎碎冰	http://www.wesane.com/game/757  
+51	蛇棋	http://www.wesane.com/game/791  
+52	掏耳朵	http://www.wesane.com/game/761  
+53	沉重打鸡	http://www.wesane.com/game/769  
+54	珠连必合	http://www.wesane.com/game/648  
+55	纸牌传奇	http://www.wesane.com/game/650  
+56	大丰收	http://www.wesane.com/game/751  
+57	糖果爆爆	http://www.wesane.com/game/754  
+58	水果大王	http://www.wesane.com/game/694  
+59	春暖花开	http://www.wesane.com/game/641  
+60	四色接龙	http://www.wesane.com/game/738  
+61	孵化小黄鸭	http://www.wesane.com/game/734  
+62	合成黑珍珠	http://www.wesane.com/game/706  
+63	刀削面	http://www.wesane.com/game/747  
+64	象棋马拉松	http://www.wesane.com/game/718  
+65	大力出奇迹	http://www.wesane.com/game/726  
+66	双色接龙	http://www.wesane.com/game/680  
+67	满汉全席	http://www.wesane.com/game/635  
+68	天花乱坠	http://www.wesane.com/game/632  
+69	齐天大圣	http://www.wesane.com/game/407  
+70	西瓜会爆炸	http://www.wesane.com/game/677  
+71	千里走单骑	http://www.wesane.com/game/698  
+72	爆米花	http://www.wesane.com/game/778  
+73	丢西瓜捡芝麻	http://www.wesane.com/game/766  
+74	天上掉钱	http://www.wesane.com/game/764  
+75	蔬菜十字连	http://www.wesane.com/game/762  
+76	糖果罐头	http://www.wesane.com/game/655  
+77	刀工大师	http://www.wesane.com/game/596  
+78	铲雪车	http://www.wesane.com/game/619  
+79	圣诞礼物	http://www.wesane.com/game/636  
+80	刮腿毛	http://www.wesane.com/game/264  
+81	宝石起源	http://www.wesane.com/game/605  
+82	画线捕鱼	http://www.wesane.com/game/404  
+83	三消丸子	http://www.wesane.com/game/560  
+84	打果子	http://www.wesane.com/game/587  
+85	彩虹屁	http://www.wesane.com/game/260  
+86	破茧成蝶	http://www.wesane.com/game/653  
+87	含苞待放	http://www.wesane.com/game/570  
+88	箭无虚发	http://www.wesane.com/game/568  
+89	30层甜筒	http://www.wesane.com/game/538  
+90	穿串串	http://www.wesane.com/game/512  
+91	以卵击石	http://www.wesane.com/game/586  
+92	见缝插车	http://www.wesane.com/game/295  
+93	花田	http://www.wesane.com/game/263  
+94	暴力扣篮	http://www.wesane.com/game/606  
+95	水果串串	http://www.wesane.com/game/628  
+96	飞刀扎水果	http://www.wesane.com/game/577  
+97	汽车华容道	http://www.wesane.com/game/172  
+98	鸡蛋大冒险	http://www.wesane.com/game/610  
+99	单色纸牌	http://www.wesane.com/game/103  
+100	小李飞刀	http://www.wesane.com/game/201  
+101	要饭	http://www.wesane.com/game/546  
+102	21点	http://www.wesane.com/game/548  
+103	保护气球	http://www.wesane.com/game/438  
+104	勤劳的快递员	http://www.wesane.com/game/537  
+105	跳房子	http://www.wesane.com/game/561  
+106	传纸条	http://www.wesane.com/game/487  
+107	印度飞饼	http://www.wesane.com/game/477  
+108	汉堡跳跃	http://www.wesane.com/game/470  
+109	擦玻璃	http://www.wesane.com/game/534  
+110	捣蛋鬼	http://www.wesane.com/game/562  
+111	投篮	http://www.wesane.com/game/212  
+112	摘星星	http://www.wesane.com/game/633  
+113	接桃子	http://www.wesane.com/game/483  
+114	水果一刀切	http://www.wesane.com/game/215  
+115	奔跑的章鱼丸	http://www.wesane.com/game/525  
+116	回转汽车	http://www.wesane.com/game/499  
+117	宝石合并	http://www.wesane.com/game/255  
+118	接鸡蛋	http://www.wesane.com/game/496  
+119	千层甜筒	http://www.wesane.com/game/510  
+120	极速飙车	http://www.wesane.com/game/154  
+121	打水果	http://www.wesane.com/game/472  
+122	破碎机	http://www.wesane.com/game/484  
+123	做果汁	http://www.wesane.com/game/436  
+124	画线停车	http://www.wesane.com/game/445  
+125	愚公移山	http://www.wesane.com/game/486  
+126	插队	http://www.wesane.com/game/446  
+127	杞人忧天	http://www.wesane.com/game/474  
+128	旋转飞刀	http://www.wesane.com/game/358  
+129	新版小猫钓鱼	http://www.wesane.com/game/471  
+130	挤牛奶	http://www.wesane.com/game/424  
+131	向上生长	http://www.wesane.com/game/423  
+132	卖炭翁	http://www.wesane.com/game/409  
+133	点球大战	http://www.wesane.com/game/406  
+134	小马过河	http://www.wesane.com/game/397  
+135	发车	http://www.wesane.com/game/414  
+136	口罩防御战	http://www.wesane.com/game/403  
+137	磁铁粘粘	http://www.wesane.com/game/270  
+138	狙击手	http://www.wesane.com/game/400  
+139	猴子上树	http://www.wesane.com/game/160  
+140	舞龙	http://www.wesane.com/game/44  
+141	射苹果	http://www.wesane.com/game/1  
+142	贪吃鱼	http://www.wesane.com/game/393  
+143	涂鸦弹球	http://www.wesane.com/game/395  
+144	环游世界	http://www.wesane.com/game/222  
+145	猫和老鼠2	http://www.wesane.com/game/380  
+146	点火	http://www.wesane.com/game/391  
+147	钉钉子	http://www.wesane.com/game/98  
+148	这是我的菜	http://www.wesane.com/game/202  
+149	找你妹	http://www.wesane.com/game/123  
+150	去火星	http://www.wesane.com/game/388  
+151	小小骑士	http://www.wesane.com/game/355  
+152	弹一弹	http://www.wesane.com/game/210  
+153	荡秋千	http://www.wesane.com/game/330  
+154	作弊	http://www.wesane.com/game/143  
+155	扣瓶盖	http://www.wesane.com/game/71  
+156	皮皮鼠	http://www.wesane.com/game/350  
+157	极速射击	http://www.wesane.com/game/361  
+158	拯救小猪	http://www.wesane.com/game/257  
+159	循环火车	http://www.wesane.com/game/381  
+160	独轮车	http://www.wesane.com/game/374  
+161	叠罗汉	http://www.wesane.com/game/189  
+162	送快递	http://www.wesane.com/game/7  
+163	浇花	http://www.wesane.com/game/118  
+164	士兵突击	http://www.wesane.com/game/96  
+165	跨栏	http://www.wesane.com/game/68  
+166	浇菜	http://www.wesane.com/game/124  
+167	下坠小球	http://www.wesane.com/game/181  
+168	边走边吐	http://www.wesane.com/game/6  
+169	捞金鱼	http://www.wesane.com/game/24  
+170	拆弹专家	http://www.wesane.com/game/370  
+171	翻转水瓶	http://www.wesane.com/game/268  
+172	猫和老鼠	http://www.wesane.com/game/107  
+173	守护蛋蛋	http://www.wesane.com/game/262  
+174	黄金分割	http://www.wesane.com/game/221  
+175	猴子捞月	http://www.wesane.com/game/70  
+176	四消水果	http://www.wesane.com/game/15  
+177	象棋大逃杀	http://www.wesane.com/game/209  
+178	糖葫芦大王	http://www.wesane.com/game/285  
+179	无敌破坏球	http://www.wesane.com/game/179  
+180	玩块块	http://www.wesane.com/game/148  
+181	大闹天宫	http://www.wesane.com/game/259  
+182	一碗球	http://www.wesane.com/game/271  
+183	开车去旅行	http://www.wesane.com/game/235  
+184	狼和小羊	http://www.wesane.com/game/195  
+185	宝石传奇	http://www.wesane.com/game/150  
+186	旋转消消	http://www.wesane.com/game/75  
+187	豌豆射手	http://www.wesane.com/game/85  
+188	擦一擦	http://www.wesane.com/game/219  
+189	星球大战	http://www.wesane.com/game/162  
+190	摆六角	http://www.wesane.com/game/109  
+191	滴水不漏	http://www.wesane.com/game/81  
+192	拉火车	http://www.wesane.com/game/130  
+193	BB弹	http://www.wesane.com/game/128  
+194	跳火圈	http://www.wesane.com/game/146  
+195	骰子合合	http://www.wesane.com/game/125  
+196	守株待兔	http://www.wesane.com/game/156  
+197	粉笔弹球	http://www.wesane.com/game/152  
+198	旋转弹珠	http://www.wesane.com/game/126  
+199	搭桥	http://www.wesane.com/game/89  
+200	蜂窝拼拼	http://www.wesane.com/game/119  
+201	推箱子	http://www.wesane.com/game/104  
+202	山峰纸牌	http://www.wesane.com/game/26  
+203	找朋友	http://www.wesane.com/game/140  
+204	小马过河	http://www.wesane.com/game/59  
+205	海马逃生	http://www.wesane.com/game/145  
+206	糖块消消	http://www.wesane.com/game/99  
+207	三角同心	http://www.wesane.com/game/158  
+208	水果炮弹	http://www.wesane.com/game/135  
+209	双喜临门	http://www.wesane.com/game/111  
+210	海滨消消乐	http://www.wesane.com/game/17  
+211	不超过十	http://www.wesane.com/game/52  
+212	高尔夫球	http://www.wesane.com/game/136  
+213	五福临门	http://www.wesane.com/game/76  
+214	四通八达	http://www.wesane.com/game/62  
+215	解救皇后	http://www.wesane.com/game/121  
+216	守卫高地	http://www.wesane.com/game/61  
+217	姜太公钓鱼	http://www.wesane.com/game/92  
+218	别顶方块	http://www.wesane.com/game/86  
+219	青蛙走格子	http://www.wesane.com/game/46  
+220	水管工	http://www.wesane.com/game/49  
+221	凑成K	http://www.wesane.com/game/16  
+222	丢甜甜圈	http://www.wesane.com/game/48  
+223	解锁糖果	http://www.wesane.com/game/3  
+224	五子棋	http://www.wesane.com/game/27  
+225	颠球	http://www.wesane.com/game/29  
+226	填图形	http://www.wesane.com/game/4  
+227	打飞碟	http://www.wesane.com/game/5  
+228	顶帽子	http://www.wesane.com/game/8  
+229	无限穿越	http://www.wesane.com/game/10  
+230	2048	http://www.wesane.com/game/12  
+231	盖大楼	http://www.wesane.com/game/14  
+232	钻火圈	http://www.wesane.com/game/20  
+233	苹果菠萝笔	http://www.wesane.com/game/21  
+234	拳击	http://www.wesane.com/game/25  
+235	推拉消	http://www.wesane.com/game/28  
+236	喂怪兽	http://www.wesane.com/game/30  
+237	小羊过河	http://www.wesane.com/game/31  
+238	喂小猫	http://www.wesane.com/game/32  
+239	补位消消	http://www.wesane.com/game/33  
+240	下100层	http://www.wesane.com/game/35  
+241	篮板王	http://www.wesane.com/game/36  
+242	拉面馆	http://www.wesane.com/game/37  
+243	摆成十	http://www.wesane.com/game/38  
+244	找茬	http://www.wesane.com/game/40  
+245	落乌龟	http://www.wesane.com/game/43  
+246	语文版数学题	http://www.wesane.com/game/45  
+247	南极大冒险	http://www.wesane.com/game/47  
+248	城市篮球	http://www.wesane.com/game/51  
+249	西部对决	http://www.wesane.com/game/53  
+250	解救木头人	http://www.wesane.com/game/54  
+251	小鱼连连	http://www.wesane.com/game/56  
+252	填格子	http://www.wesane.com/game/58  
+253	高手对决	http://www.wesane.com/game/60  
+254	炫彩桌球	http://www.wesane.com/game/64  
+255	玩手机	http://www.wesane.com/game/65  
+256	跳绳	http://www.wesane.com/game/66  
+257	击鼓传花	http://www.wesane.com/game/67  
+258	排队	http://www.wesane.com/game/72  
+259	穿针引线	http://www.wesane.com/game/73  
+260	井底之蛙	http://www.wesane.com/game/74  
+261	套牛	http://www.wesane.com/game/78  
+262	一起开心	http://www.wesane.com/game/80  
+263	送外卖	http://www.wesane.com/game/82  
+264	切方块	http://www.wesane.com/game/83  
+265	数独	http://www.wesane.com/game/84  
+266	一笔画	http://www.wesane.com/game/90  
+267	点灯	http://www.wesane.com/game/94  
+268	智慧数字	http://www.wesane.com/game/95  
+269	同化泡泡	http://www.wesane.com/game/97  
+270	信任游戏	http://www.wesane.com/game/100  
+271	下落消	http://www.wesane.com/game/102  
+272	24点	http://www.wesane.com/game/106  
+273	漏网之鱼	http://www.wesane.com/game/108  
+274	六角围棋	http://www.wesane.com/game/110  
+275	百花绽放	http://www.wesane.com/game/112  
+276	灌溉农田	http://www.wesane.com/game/115  
+277	潜行	http://www.wesane.com/game/116  
+278	汉诺塔	http://www.wesane.com/game/122  
+279	反射激光	http://www.wesane.com/game/129  
+280	消灭病菌	http://www.wesane.com/game/131  
+281	跳棋	http://www.wesane.com/game/132  
+282	见缝插刀	http://www.wesane.com/game/137  
+283	排排消	http://www.wesane.com/game/138  
+284	伸缩骰子	http://www.wesane.com/game/141  
+285	交叉线	http://www.wesane.com/game/142  
+286	叠图案	http://www.wesane.com/game/147  
+287	消糖果	http://www.wesane.com/game/151  
+288	解锁星星	http://www.wesane.com/game/153  
+289	喂食小狗	http://www.wesane.com/game/161  
+290	企鹅冒险	http://www.wesane.com/game/163  
+291	追星	http://www.wesane.com/game/164  
+292	弹球扣篮	http://www.wesane.com/game/165  
+293	跃动篮球	http://www.wesane.com/game/167  
+294	保卫水果	http://www.wesane.com/game/168  
+295	爱猜灯谜	http://www.wesane.com/game/170  
+296	心心相印	http://www.wesane.com/game/173  
+297	舞狮	http://www.wesane.com/game/174  
+298	炫酷飘移	http://www.wesane.com/game/175  
+299	飞机大战	http://www.wesane.com/game/176  
+300	智慧树	http://www.wesane.com/game/178  
+301	文争武斗	http://www.wesane.com/game/182  
+302	太极小球	http://www.wesane.com/game/183  
+303	智能娃娃机	http://www.wesane.com/game/184  
+304	加减乘除	http://www.wesane.com/game/185  
+305	连击48	http://www.wesane.com/game/186  
+306	鲤鱼跃龙门	http://www.wesane.com/game/187  
+307	推推消	http://www.wesane.com/game/188  
+308	不死卡牌	http://www.wesane.com/game/190  
+309	时空静止	http://www.wesane.com/game/191  
+310	守卫忍村	http://www.wesane.com/game/192  
+311	一指弹	http://www.wesane.com/game/193  
+312	冰壶	http://www.wesane.com/game/194  
+313	累加方块	http://www.wesane.com/game/196  
+314	几何塔	http://www.wesane.com/game/197  
+315	百家姓	http://www.wesane.com/game/198  
+316	行星	http://www.wesane.com/game/199  
+317	滑板小子	http://www.wesane.com/game/200  
+318	狂野飙车	http://www.wesane.com/game/203  
+319	变色冲撞	http://www.wesane.com/game/204  
+320	刺猬回家	http://www.wesane.com/game/205  
+321	像素积木	http://www.wesane.com/game/206  
+322	跃动精灵	http://www.wesane.com/game/207  
+323	美味拼盘	http://www.wesane.com/game/208  
+324	当红不让	http://www.wesane.com/game/211  
+325	打豆豆	http://www.wesane.com/game/213  
+326	寿司拼盘	http://www.wesane.com/game/214  
+327	打气球	http://www.wesane.com/game/216  
+328	一笔画完	http://www.wesane.com/game/217  
+329	智力问答	http://www.wesane.com/game/218  
+330	平衡城市	http://www.wesane.com/game/220  
+331	旋转手枪	http://www.wesane.com/game/223  
+332	乌鸦喝水大赛	http://www.wesane.com/game/224  
+333	回家的路	http://www.wesane.com/game/225  
+334	小小粉刷匠	http://www.wesane.com/game/226  
+335	勇者之心	http://www.wesane.com/game/227  
+336	飞吧!小鸡	http://www.wesane.com/game/228  
+337	鸡要过马路	http://www.wesane.com/game/229  
+338	特工英雄	http://www.wesane.com/game/230  
+339	河豚大作战	http://www.wesane.com/game/231  
+340	踩蘑菇	http://www.wesane.com/game/232  
+341	超级堆积木	http://www.wesane.com/game/233  
+342	贪吃猫	http://www.wesane.com/game/234  
+343	摆积木	http://www.wesane.com/game/236  
+344	割草大作战	http://www.wesane.com/game/237  
+345	指尖投篮	http://www.wesane.com/game/238  
+346	打砖块	http://www.wesane.com/game/240  
+347	跳跳鱼	http://www.wesane.com/game/241  
+348	喂猫	http://www.wesane.com/game/242  
+349	温酒斩方块	http://www.wesane.com/game/243  
+350	拔胡子	http://www.wesane.com/game/244  
+351	急速停车	http://www.wesane.com/game/245  
+352	笨鸟弹射	http://www.wesane.com/game/246  
+353	方块翻一翻	http://www.wesane.com/game/247  
+354	企鹅滑雪场	http://www.wesane.com/game/248  
+355	五谷丰登	http://www.wesane.com/game/249  
+356	兔子回家	http://www.wesane.com/game/250  
+357	田忌赛猪	http://www.wesane.com/game/251  
+358	各回各家	http://www.wesane.com/game/252  
+359	点球大战	http://www.wesane.com/game/253  
+360	画这里	http://www.wesane.com/game/254  
+361	蜂巢密码	http://www.wesane.com/game/256  
+362	色块堆叠	http://www.wesane.com/game/258  
+363	六角加加	http://www.wesane.com/game/261  
+364	交换宝石	http://www.wesane.com/game/265  
+365	切菜达人	http://www.wesane.com/game/266  
+366	哪个重	http://www.wesane.com/game/267  
+367	海底逃生	http://www.wesane.com/game/269  
+368	交通辅导员	http://www.wesane.com/game/272  
+369	冰凉夏日	http://www.wesane.com/game/273  
+370	堵色	http://www.wesane.com/game/274  
+371	保护绿色	http://www.wesane.com/game/275  
+372	画线蜜蜂	http://www.wesane.com/game/276  
+373	碰碰车	http://www.wesane.com/game/277  
+374	小鸡快跑	http://www.wesane.com/game/278  
+375	挤柠檬	http://www.wesane.com/game/279  
+376	保护飞船	http://www.wesane.com/game/280  
+377	病毒消消	http://www.wesane.com/game/281  
+378	一往无前	http://www.wesane.com/game/282  
+379	三只小熊	http://www.wesane.com/game/283  
+380	画线汽车	http://www.wesane.com/game/284  
+381	又消又除	http://www.wesane.com/game/286  
+382	疯狂串吧	http://www.wesane.com/game/287  
+383	环球旅行	http://www.wesane.com/game/288  
+384	拼成一线	http://www.wesane.com/game/289  
+385	挪箱子	http://www.wesane.com/game/290  
+386	颠倒黑白	http://www.wesane.com/game/291  
+387	聚合消消	http://www.wesane.com/game/292  
+388	台球合合	http://www.wesane.com/game/293  
+389	天花乱坠	http://www.wesane.com/game/294  
+390	泡泡天平	http://www.wesane.com/game/296  
+391	星星点灯	http://www.wesane.com/game/297  
+392	捕捞海螺	http://www.wesane.com/game/298  
+393	爆炸西瓜	http://www.wesane.com/game/299  
+394	就要这么高	http://www.wesane.com/game/300  
+395	极限网球	http://www.wesane.com/game/301  
+396	旋转火锅	http://www.wesane.com/game/302  
+397	松鼠求生	http://www.wesane.com/game/303  
+398	迷幻泡泡	http://www.wesane.com/game/304  
+399	天天数钱	http://www.wesane.com/game/305  
+400	推拉彩珠	http://www.wesane.com/game/306  
+401	摆一块	http://www.wesane.com/game/307  
+402	彩虹猫	http://www.wesane.com/game/308  
+403	鼹鼠的故事	http://www.wesane.com/game/309  
+404	千杯不醉	http://www.wesane.com/game/310  
+405	魔方填块	http://www.wesane.com/game/311  
+406	河马消消	http://www.wesane.com/game/312  
+407	推糖果	http://www.wesane.com/game/313  
+408	穿越算盘	http://www.wesane.com/game/314  
+409	滑动解锁	http://www.wesane.com/game/315  
+410	染色苹果	http://www.wesane.com/game/316  
+411	逆流而上	http://www.wesane.com/game/317  
+412	躲猫猫	http://www.wesane.com/game/318  
+413	保护三叶草	http://www.wesane.com/game/319  
+414	小兔跳跳	http://www.wesane.com/game/320  
+415	冰壶消消	http://www.wesane.com/game/321  
+416	钩锁攀岩	http://www.wesane.com/game/322  
+417	路障大师	http://www.wesane.com/game/323  
+418	精准掷刀	http://www.wesane.com/game/324  
+419	勇者斗恶龙	http://www.wesane.com/game/325  
+420	画线飞机	http://www.wesane.com/game/326  
+421	猫头鹰回家	http://www.wesane.com/game/327  
+422	弹跳投篮	http://www.wesane.com/game/328  
+423	乒乓球	http://www.wesane.com/game/329  
+424	逻辑磁铁	http://www.wesane.com/game/331  
+425	画地为牢	http://www.wesane.com/game/332  
+426	一个不落	http://www.wesane.com/game/333  
+427	太空旅行	http://www.wesane.com/game/334  
+428	叠方块	http://www.wesane.com/game/335  
+429	极限轮滑	http://www.wesane.com/game/336  
+430	千杯不醉(升级版)	http://www.wesane.com/game/337  
+431	跃起吧!	http://www.wesane.com/game/339  
+432	消灭外星人	http://www.wesane.com/game/340  
+433	小小冒险家	http://www.wesane.com/game/341  
+434	夜晚烟火	http://www.wesane.com/game/342  
+435	光线反射	http://www.wesane.com/game/345  
+436	果冻塔	http://www.wesane.com/game/346  
+437	反复横跳	http://www.wesane.com/game/347  
+438	分豆子	http://www.wesane.com/game/348  
+439	长路漫漫	http://www.wesane.com/game/349  
+440	堆冰块	http://www.wesane.com/game/352  
+441	摆上就消	http://www.wesane.com/game/353  
+442	甜心物语	http://www.wesane.com/game/354  
+443	森林狂欢季	http://www.wesane.com/game/356  
+444	保护雪人	http://www.wesane.com/game/359  
+445	糖果碰碰车	http://www.wesane.com/game/360  
+446	冲呀小鸡	http://www.wesane.com/game/362  
+447	爆竹声声	http://www.wesane.com/game/363  
+448	动物跳高	http://www.wesane.com/game/364  
+449	漂流之战	http://www.wesane.com/game/365  
+450	丘比特之箭2	http://www.wesane.com/game/366  
+451	极速战车	http://www.wesane.com/game/367  
+452	救人	http://www.wesane.com/game/368  
+453	球球合合	http://www.wesane.com/game/371  
+454	同化	http://www.wesane.com/game/372  
+455	点亮星空	http://www.wesane.com/game/373  
+456	弹跳篮球	http://www.wesane.com/game/375  
+457	宝石消消	http://www.wesane.com/game/376  
+458	智能加工厂	http://www.wesane.com/game/377  
+459	跳水	http://www.wesane.com/game/379  
+460	拔苗助长	http://www.wesane.com/game/382  
+461	打包礼品	http://www.wesane.com/game/383  
+462	针灸大师	http://www.wesane.com/game/384  
+463	姻缘一线牵	http://www.wesane.com/game/386  
+464	推雪球	http://www.wesane.com/game/389  
+465	收割麦田	http://www.wesane.com/game/390  
+466	翻牌	http://www.wesane.com/game/392  
+467	劈个叉吧	http://www.wesane.com/game/394  
+468	引力	http://www.wesane.com/game/396  
+469	水果大师	http://www.wesane.com/game/398  
+470	护花使者	http://www.wesane.com/game/399  
+471	牧羊犬	http://www.wesane.com/game/405  
+472	神出鬼没	http://www.wesane.com/game/408  
+473	滴水穿石	http://www.wesane.com/game/410  
+474	弹球进洞	http://www.wesane.com/game/411  
+475	海星守卫战	http://www.wesane.com/game/412  
+476	仓鼠球	http://www.wesane.com/game/413  
+477	大红灯笼	http://www.wesane.com/game/415  
+478	甜甜圈大冒险	http://www.wesane.com/game/416  
+479	小红帽回家	http://www.wesane.com/game/417  
+480	女娲补天	http://www.wesane.com/game/418  
+481	敲钉子	http://www.wesane.com/game/419  
+482	平步青云	http://www.wesane.com/game/420  
+483	解锁象棋	http://www.wesane.com/game/421  
+484	拍钉子	http://www.wesane.com/game/422  
+485	红豆包	http://www.wesane.com/game/426  
+486	画线赛道	http://www.wesane.com/game/427  
+487	做寿司	http://www.wesane.com/game/428  
+488	串糖葫芦	http://www.wesane.com/game/429  
+489	扔飞镖	http://www.wesane.com/game/430  
+490	织布机	http://www.wesane.com/game/431  
+491	推拉合十	http://www.wesane.com/game/432  
+492	堆积大王	http://www.wesane.com/game/433  
+493	越描越黑	http://www.wesane.com/game/434  
+494	一刀两断	http://www.wesane.com/game/435  
+495	激光枪	http://www.wesane.com/game/437  
+496	一个不留	http://www.wesane.com/game/439  
+497	拍蚊子	http://www.wesane.com/game/440  
+498	跳跃包子	http://www.wesane.com/game/441  
+499	射击水果	http://www.wesane.com/game/442  
+500	喜从天降	http://www.wesane.com/game/443  
+501	不倒翁	http://www.wesane.com/game/444  
+502	推球进洞	http://www.wesane.com/game/447  
+503	填充方块	http://www.wesane.com/game/448  
+504	撸苞米	http://www.wesane.com/game/449  
+505	盖碗茶	http://www.wesane.com/game/450  
+506	爬山虎	http://www.wesane.com/game/451  
+507	石油大盗	http://www.wesane.com/game/452  
+508	量身高	http://www.wesane.com/game/453  
+509	青蛙	http://www.wesane.com/game/454  
+510	卖饼翁	http://www.wesane.com/game/455  
+511	最后一发	http://www.wesane.com/game/456  
+512	一碗水	http://www.wesane.com/game/457  
+513	夹心饼干	http://www.wesane.com/game/458  
+514	曹冲称象	http://www.wesane.com/game/459  
+515	沙里淘金	http://www.wesane.com/game/460  
+516	三位真火	http://www.wesane.com/game/463  
+517	盲人摸象	http://www.wesane.com/game/464  
+518	切割机	http://www.wesane.com/game/465  
+519	激流勇进	http://www.wesane.com/game/466  
+520	大白鲨	http://www.wesane.com/game/467  
+521	浇田	http://www.wesane.com/game/468  
+522	同时下落	http://www.wesane.com/game/469  
+523	补口袋	http://www.wesane.com/game/473  
+524	磁铁兄弟	http://www.wesane.com/game/475  
+525	飞蛾扑火	http://www.wesane.com/game/476  
+526	丝绸之路	http://www.wesane.com/game/478  
+527	顶天立地	http://www.wesane.com/game/479  
+528	抡大锤	http://www.wesane.com/game/480  
+529	拔萝卜	http://www.wesane.com/game/481  
+530	细胞融合	http://www.wesane.com/game/482  
+531	太空跳跃	http://www.wesane.com/game/485  
+532	彩虹弹球	http://www.wesane.com/game/488  
+533	一根筋	http://www.wesane.com/game/489  
+534	合并果冻	http://www.wesane.com/game/490  
+535	鱼吐泡泡	http://www.wesane.com/game/491  
+536	四分五裂	http://www.wesane.com/game/492  
+537	破冰行动	http://www.wesane.com/game/494  
+538	充电	http://www.wesane.com/game/495  
+539	引流	http://www.wesane.com/game/497  
+540	跳跃篮球	http://www.wesane.com/game/498  
+541	弩箭	http://www.wesane.com/game/500  
+542	徒手劈砖	http://www.wesane.com/game/501  
+543	爱吃彩虹糖	http://www.wesane.com/game/502  
+544	劈柴胡同	http://www.wesane.com/game/503  
+545	俄罗斯套娃	http://www.wesane.com/game/504  
+546	三味书屋	http://www.wesane.com/game/505  
+547	寸拳	http://www.wesane.com/game/506  
+548	三人成虎	http://www.wesane.com/game/507  
+549	丢沙包	http://www.wesane.com/game/508  
+550	做汉堡	http://www.wesane.com/game/509  
+551	巨人花园	http://www.wesane.com/game/511  
+552	爆炸河豚	http://www.wesane.com/game/513  
+553	坠落方块	http://www.wesane.com/game/514  
+554	扑克消消	http://www.wesane.com/game/515  
+555	投石车	http://www.wesane.com/game/516  
+556	加点柠檬	http://www.wesane.com/game/517  
+557	弹跳捕鱼	http://www.wesane.com/game/518  
+558	炸弹泡泡	http://www.wesane.com/game/519  
+559	狼来了	http://www.wesane.com/game/520  
+560	挤牙膏	http://www.wesane.com/game/521  
+561	砸玻璃	http://www.wesane.com/game/522  
+562	割麦子	http://www.wesane.com/game/523  
+563	捕蝇草	http://www.wesane.com/game/524  
+564	啄木鸟	http://www.wesane.com/game/526  
+565	惊心动魄	http://www.wesane.com/game/528  
+566	牵线搭桥	http://www.wesane.com/game/529  
+567	摆宝石	http://www.wesane.com/game/532  
+568	冰封宝石	http://www.wesane.com/game/533  
+569	吹气投篮	http://www.wesane.com/game/535  
+570	跳火车	http://www.wesane.com/game/539  
+571	花团锦簇	http://www.wesane.com/game/541  
+572	久旱逢甘霖	http://www.wesane.com/game/542  
+573	成语接龙	http://www.wesane.com/game/543  
+574	旋转烧烤	http://www.wesane.com/game/544  
+575	腰鼓达人	http://www.wesane.com/game/545  
+576	烧烤达人	http://www.wesane.com/game/547  
+577	冲出重围	http://www.wesane.com/game/549  
+578	黄鸡跳台	http://www.wesane.com/game/551  
+579	屁屁超人	http://www.wesane.com/game/552  
+580	齐头并进	http://www.wesane.com/game/553  
+581	鲤鱼跃龙门	http://www.wesane.com/game/554  
+582	见招拆招	http://www.wesane.com/game/555  
+583	风火轮	http://www.wesane.com/game/556  
+584	合成糖果	http://www.wesane.com/game/558  
+585	吃豆蛇	http://www.wesane.com/game/559  
+586	下饺子	http://www.wesane.com/game/563  
+587	植发	http://www.wesane.com/game/565  
+588	方块塔	http://www.wesane.com/game/567  
+589	马戏团秋千	http://www.wesane.com/game/571  
+590	超级棒球王	http://www.wesane.com/game/572  
+591	百米轮滑	http://www.wesane.com/game/573  
+592	弹月饼	http://www.wesane.com/game/574  
+593	腾空飞跃	http://www.wesane.com/game/575  
+594	孵小鸡	http://www.wesane.com/game/576  
+595	生日快乐	http://www.wesane.com/game/578  
+596	街道保龄球	http://www.wesane.com/game/579  
+597	保护鸡蛋	http://www.wesane.com/game/580  
+598	三羊开泰	http://www.wesane.com/game/581  
+599	播种	http://www.wesane.com/game/582  
+600	连笔翻牌	http://www.wesane.com/game/583  
+601	打车	http://www.wesane.com/game/584  
+602	旋转果盘	http://www.wesane.com/game/585  
+603	躲雨	http://www.wesane.com/game/588  
+604	下车	http://www.wesane.com/game/589  
+605	一言九鼎	http://www.wesane.com/game/591  
+606	秋后奶茶	http://www.wesane.com/game/592  
+607	肉包子打狗	http://www.wesane.com/game/593  
+608	充电机器人	http://www.wesane.com/game/594  
+609	瓜果蔬菜	http://www.wesane.com/game/595  
+610	虎口拔牙	http://www.wesane.com/game/597  
+611	守护花园	http://www.wesane.com/game/598  
+612	水果泡泡	http://www.wesane.com/game/599  
+613	打块块	http://www.wesane.com/game/600  
+614	粘羊毛	http://www.wesane.com/game/601  
+615	烧烤店	http://www.wesane.com/game/602  
+616	水工厂	http://www.wesane.com/game/603  
+617	三毛	http://www.wesane.com/game/604  
+618	守卫家园	http://www.wesane.com/game/607  
+619	砌墙	http://www.wesane.com/game/608  
+620	小刀翻跟头	http://www.wesane.com/game/611  
+621	三点一线	http://www.wesane.com/game/612  
+622	爆炸果冻	http://www.wesane.com/game/613  
+623	旋转棒棒糖	http://www.wesane.com/game/615  
+624	标枪接力	http://www.wesane.com/game/616  
+625	涂鸦小鸡	http://www.wesane.com/game/617  
+626	班门弄斧	http://www.wesane.com/game/618  
+627	分菜	http://www.wesane.com/game/620  
+628	保护公主	http://www.wesane.com/game/621  
+629	伪装大师	http://www.wesane.com/game/622  
+630	引爆豌豆	http://www.wesane.com/game/623  
+631	12点	http://www.wesane.com/game/624  
+632	射弹珠	http://www.wesane.com/game/625  
+633	奶茶大满贯	http://www.wesane.com/game/626  
+634	妙笔生花	http://www.wesane.com/game/627  
+635	大丰收	http://www.wesane.com/game/629  
+636	造酒车间	http://www.wesane.com/game/630  
+637	信手拈来	http://www.wesane.com/game/634  
+638	动物饼干	http://www.wesane.com/game/637  
+639	拯救阿斗	http://www.wesane.com/game/638  
+640	孵鸡蛋	http://www.wesane.com/game/639  
+641	篮球接力	http://www.wesane.com/game/642  
+642	哪吒闹地府	http://www.wesane.com/game/643  
+643	百发百中	http://www.wesane.com/game/644  
+644	美味汉堡	http://www.wesane.com/game/645  
+645	三打白骨精	http://www.wesane.com/game/646  
+646	甜品屋	http://www.wesane.com/game/647  
+647	四喜丸子	http://www.wesane.com/game/651  
+648	小蜜蜂	http://www.wesane.com/game/652  
+649	沾满巧克力	http://www.wesane.com/game/656  
+650	爆炸橙子	http://www.wesane.com/game/657  
+651	合成小芝麻	http://www.wesane.com/game/658  
+652	铁板烧	http://www.wesane.com/game/659  
+653	砸核桃	http://www.wesane.com/game/660  
+654	砸碎金蛋	http://www.wesane.com/game/661  
+655	传球射门	http://www.wesane.com/game/662  
+656	骰子接龙	http://www.wesane.com/game/663  
+657	合成大福字	http://www.wesane.com/game/664  
+658	过马路	http://www.wesane.com/game/665  
+659	贴对联	http://www.wesane.com/game/667  
+660	点个毛线	http://www.wesane.com/game/666  
+661	什锦汤圆	http://www.wesane.com/game/668  
+662	接杯水	http://www.wesane.com/game/669  
+663	爆炸大南瓜	http://www.wesane.com/game/670  
+664	扔垃圾	http://www.wesane.com/game/671  
+665	理发师	http://www.wesane.com/game/674  
+666	泡泡鱼	http://www.wesane.com/game/672  
+667	正品专家	http://www.wesane.com/game/673  
+668	洒水车	http://www.wesane.com/game/675  
+669	一箭穿心	http://www.wesane.com/game/676  
+670	交换冰淇淋	http://www.wesane.com/game/678  
+671	神笔马良	http://www.wesane.com/game/681  
+672	堆方块	http://www.wesane.com/game/682  
+673	生肖串串	http://www.wesane.com/game/683  
+674	打开保险箱	http://www.wesane.com/game/686  
+675	口红翻跟头	http://www.wesane.com/game/687  
+676	拼一拼	http://www.wesane.com/game/688  
+677	消来消去	http://www.wesane.com/game/689  
+678	四叶草	http://www.wesane.com/game/690  
+679	纸牌对对消	http://www.wesane.com/game/692  
+680	我要吃零食	http://www.wesane.com/game/693  
+681	打开礼物	http://www.wesane.com/game/695  
+682	捕捉大鲨鱼	http://www.wesane.com/game/697  
+683	点心消消	http://www.wesane.com/game/699  
+684	后羿射日	http://www.wesane.com/game/700  
+685	翻转体操	http://www.wesane.com/game/703  
+686	拼花朵	http://www.wesane.com/game/704  
+687	快乐牧场	http://www.wesane.com/game/707  
+688	一网打尽	http://www.wesane.com/game/709  
+689	汉堡大王	http://www.wesane.com/game/710  
+690	果盘合合	http://www.wesane.com/game/711  
+691	削掉它的皮	http://www.wesane.com/game/714  
+692	破冰消方块	http://www.wesane.com/game/713  
+693	宝石接龙	http://www.wesane.com/game/715  
+694	合成小怪物	http://www.wesane.com/game/716  
+695	跳高高	http://www.wesane.com/game/717  
+696	合成大蛋糕	http://www.wesane.com/game/719  
+697	磁铁吸吸	http://www.wesane.com/game/720  
+698	旅行巴士	http://www.wesane.com/game/722  
+699	节节高升	http://www.wesane.com/game/721  
+700	纸牌无限接龙	http://www.wesane.com/game/723  
+701	合成王牌	http://www.wesane.com/game/724  
+702	果子进筐	http://www.wesane.com/game/725  
+703	比翼双飞	http://www.wesane.com/game/727  
+704	拿到礼物	http://www.wesane.com/game/728  
+705	弹成大西瓜	http://www.wesane.com/game/729  
+706	云霄飞机	http://www.wesane.com/game/730  
+707	迷你高尔夫	http://www.wesane.com/game/731  
+708	果冻树	http://www.wesane.com/game/733  
+709	水果篮子	http://www.wesane.com/game/736  
+710	管道大师	http://www.wesane.com/game/737  
+711	百花齐放	http://www.wesane.com/game/740  
+712	转转赛车	http://www.wesane.com/game/741  
+713	打老鼠	http://www.wesane.com/game/742  
+714	宝玉连珠	http://www.wesane.com/game/743  
+715	心连心	http://www.wesane.com/game/744  
+716	小狗吃汉堡	http://www.wesane.com/game/745  
+717	一夜暴富	http://www.wesane.com/game/746  
+718	装鸡蛋	http://www.wesane.com/game/748  
+719	宝石交换	http://www.wesane.com/game/749  
+720	弹力桌⚪	http://www.wesane.com/game/750  
+721	合成大宝石	http://www.wesane.com/game/752  
+722	爪爪乐	http://www.wesane.com/game/755  
+723	炸尸	http://www.wesane.com/game/756  
+724	大炮射门	http://www.wesane.com/game/760  
+725	拆大楼	http://www.wesane.com/game/763  
+726	花开富贵	http://www.wesane.com/game/765  
+727	团圆饭	http://www.wesane.com/game/768  
+728	点石成金	http://www.wesane.com/game/767  
+729	砍瓜切菜	http://www.wesane.com/game/770  
+730	指认罪犯	http://www.wesane.com/game/771  
+731	弹弹糖	http://www.wesane.com/game/772  
+732	躲猫猫	http://www.wesane.com/game/773  
+733	开花	http://www.wesane.com/game/774  
+734	大胃王	http://www.wesane.com/game/775  
+735	小兔子吃萝卜	http://www.wesane.com/game/776  
+736	赶鸭子	http://www.wesane.com/game/779  
+737	观光车	http://www.wesane.com/game/783  
+738	亡羊补牢	http://www.wesane.com/game/785  
+739	甜蜜蜜	http://www.wesane.com/game/786  
+740	打鸭子	http://www.wesane.com/game/787  
+741	大铁锤	http://www.wesane.com/game/788  
+742	七色花	http://www.wesane.com/game/789  
+743	甜甜圈	http://www.wesane.com/game/790  
+744	疯狂切水果	http://www.wesane.com/game/792  
+745	横冲直撞	http://www.wesane.com/game/794  
+746	家常菜	http://www.wesane.com/game/796  
+747	打鸡蛋	http://www.wesane.com/game/797  
+748	小红帽	http://www.wesane.com/game/798  
+749	套个甜甜圈	http://www.wesane.com/game/799  
+750	做汉堡	http://www.wesane.com/game/800  
+751	开心豆	http://www.wesane.com/game/801  
+752	彩虹蛋糕	http://www.wesane.com/game/802  
+753	蜂恋花	http://www.wesane.com/game/803  
+754	种瓜得瓜	http://www.wesane.com/game/804  
+755	回收易拉罐	http://www.wesane.com/game/806  
+756	生肖派对	http://www.wesane.com/game/807  
+757	接篮球	http://www.wesane.com/game/810  
+758	动物举高高	http://www.wesane.com/game/812  
+759	平衡可乐	http://www.wesane.com/game/813  
+760	合成大王	http://www.wesane.com/game/814  
+761	打掉果子	http://www.wesane.com/game/815  
+762	串糖葫芦	http://www.wesane.com/game/817  
+763	剥玉米	http://www.wesane.com/game/820  
+764	终极宝石	http://www.wesane.com/game/822  
+765	合成棒棒糖	http://www.wesane.com/game/823  
+766	秦王绕柱	http://www.wesane.com/game/824  
+767	节奏唱片	http://www.wesane.com/game/825  
+768	自由接龙	http://www.wesane.com/game/826  
+769	宝石大挪移	http://www.wesane.com/game/828  
+770	打包	http://www.wesane.com/game/830  
+771	并道发车	http://www.wesane.com/game/831  
+772	爆炸可乐	http://www.wesane.com/game/832  
+773	切菜	http://www.wesane.com/game/833  
+774	刮刮卡	http://www.wesane.com/game/834  
+775	进化玻璃球	http://www.wesane.com/game/835  
+776	螳螂捕蝉	http://www.wesane.com/game/836  
+777	魔术师	http://www.wesane.com/game/837  
+778	合成恐龙蛋	http://www.wesane.com/game/838  
+779	转盘小丸子	http://www.wesane.com/game/840  
+780	糖果满天飞	http://www.wesane.com/game/841  
+781	克隆鸡蛋	http://www.wesane.com/game/842  
+782	逗猫	http://www.wesane.com/game/843  
+783	我的停车场	http://www.wesane.com/game/846  
+784	打雪仗	http://www.wesane.com/game/847  
+785	小鱼找对象	http://www.wesane.com/game/849  
+786	植树造林	http://www.wesane.com/game/850  
+787	随机染发	http://www.wesane.com/game/851  
+788	水果爆冰球	http://www.wesane.com/game/852  
+789	捉迷藏	http://www.wesane.com/game/853  
+790	插花瓣	http://www.wesane.com/game/854  
+791	下饺子	http://www.wesane.com/game/855  
+792	宝石魔方	http://www.wesane.com/game/856  
+793	彗星撞地球	http://www.wesane.com/game/857  
+794	铁板大鱿鱼	http://www.wesane.com/game/859  
+795	深海娃娃机	http://www.wesane.com/game/860  
+796	打碎瓶子	http://www.wesane.com/game/861  
+797	蛋打鸡飞	http://www.wesane.com/game/863  
+798	烟花缭乱	http://www.wesane.com/game/864  
+799	甜蜜松饼屋	http://www.wesane.com/game/865  
+800	小鸡捉虫吃	http://www.wesane.com/game/866  
+801	旋转赛车道	http://www.wesane.com/game/867  
+802	疯狂赛道	http://www.wesane.com/game/869  
+803	转个西瓜	http://www.wesane.com/game/870  
+804	买下游乐园	http://www.wesane.com/game/871  
+805	挤地铁	http://www.wesane.com/game/872  
+806	包饺子	http://www.wesane.com/game/873  
+807	集体婚礼	http://www.wesane.com/game/875  
+808	地道战	http://www.wesane.com/game/876  
+809	水果转盘	http://www.wesane.com/game/877  
+810	育龙达人	http://www.wesane.com/game/879  
+811	弹花一现	http://www.wesane.com/game/881  
+812	腌咸菜	http://www.wesane.com/game/882  
+813	小鸭子过河	http://www.wesane.com/game/883  
+814	蝶恋花	http://www.wesane.com/game/884  
+815	剪指甲	http://www.wesane.com/game/885  
+816	挂满礼物	http://www.wesane.com/game/886  
+817	烧烤大排档	http://www.wesane.com/game/887  
+818	水果半对半	http://www.wesane.com/game/888  
+819	碰碰纸牌	http://www.wesane.com/game/889  
+820	倒酒	http://www.wesane.com/game/890  
+821	挖宝	http://www.wesane.com/game/891  
+822	凿壁借光	http://www.wesane.com/game/893  
+823	打碎蔬菜	http://www.wesane.com/game/892  
+824	捡松果	http://www.wesane.com/game/894  
+825	兵临城下	http://www.wesane.com/game/895  
+826	拆盲盒	http://www.wesane.com/game/896  
+827	玩转圣诞	http://www.wesane.com/game/898  
+828	水果炸弹	http://www.wesane.com/game/897  
+829	完美出炉	http://www.wesane.com/game/899  
+830	开花结果	http://www.wesane.com/game/900  
+831	生肖争霸	http://www.wesane.com/game/902  
+832	芝麻开门	http://www.wesane.com/game/903  
+833	荤素搭配	http://www.wesane.com/game/904  
+834	画地为牢	http://www.wesane.com/game/905  
+835	定位发车	http://www.wesane.com/game/906  
+836	一刀两断	http://www.wesane.com/game/907  
+837	完美停车	http://www.wesane.com/game/909  
+838	暴力厨房	http://www.wesane.com/game/911  
+839	解救王子	http://www.wesane.com/game/915  
+840	积少成多	http://www.wesane.com/game/916  
+841	奇趣动物园	http://www.wesane.com/game/917  
+842	宠物星球	http://www.wesane.com/game/919  
+843	疯狂串烧	http://www.wesane.com/game/922  
+844	奶奶分果子	http://www.wesane.com/game/923  
+845	合成金龙鱼	http://www.wesane.com/game/924  
+846	绝不露馅	http://www.wesane.com/game/926  
+847	顺水推舟	http://www.wesane.com/game/929  
+848	三只小猪	http://www.wesane.com/game/930  
+849	制作爆米花	http://www.wesane.com/game/931  
+850	五谷丰登	http://www.wesane.com/game/933  
+851	抛砖引玉	http://www.wesane.com/game/935  
+852	吉星高照	http://www.wesane.com/game/936  
+853	夺宝船长	http://www.wesane.com/game/937  
+854	占领鱼塘	http://www.wesane.com/game/938  
+855	奇葩滑雪	http://www.wesane.com/game/939  
+856	跳出五指山	http://www.wesane.com/game/942  
+857	百鸟朝凤	http://www.wesane.com/game/943  
+858	在逃公主	http://www.wesane.com/game/945  
+859	来杯牛奶	http://www.wesane.com/game/944  
+860	猪八戒背媳妇	http://www.wesane.com/game/946  
+861	跃龙门	http://www.wesane.com/game/947  
+862	神龙对对碰	http://www.wesane.com/game/952  
+863	天上掉馅饼	http://www.wesane.com/game/954  
+864	步步生花	http://www.wesane.com/game/956  
+865	糖果到家	http://www.wesane.com/game/957  
+866	忙碌小牛仔	http://www.wesane.com/game/959  
+867	我的太阳	http://www.wesane.com/game/960  
+868	挖石油	http://www.wesane.com/game/961  
+869	龙抬头	http://www.wesane.com/game/962  
+870	泡泡纸	http://www.wesane.com/game/964  
+871	快刀厨房	http://www.wesane.com/game/965  
+872	暴打椰子	http://www.wesane.com/game/966  
+873	百击百中	http://www.wesane.com/game/967  
+874	杂耍转球	http://www.wesane.com/game/969  
+875	看看谁不动	http://www.wesane.com/game/970  
+876	召唤熊猫	http://www.wesane.com/game/971  
+877	唤醒花仙子	http://www.wesane.com/game/972  
+878	合成大汽车	http://www.wesane.com/game/977  
+879	超级汉堡	http://www.wesane.com/game/978  
+880	点兵点将	http://www.wesane.com/game/979  
+881	八戒救悟空	http://www.wesane.com/game/980  
+882	金蟾献瑞	http://www.wesane.com/game/981  
+883	狐狸和葡萄	http://www.wesane.com/game/982  
+884	麻雀变凤凰	http://www.wesane.com/game/983  
+885	即刻出发	http://www.wesane.com/game/984  
+886	生根	http://www.wesane.com/game/985  
+887	抢地盘	http://www.wesane.com/game/986  

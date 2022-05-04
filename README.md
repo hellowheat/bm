@@ -1,4 +1,4 @@
-1	魔方拆拆乐	http://www.wesane.com/game/976  
+[1 魔方拆拆乐](http://www.wesane.com/game/976) 
 2	水果射手	http://www.wesane.com/game/950  
 3	番茄农场	http://www.wesane.com/game/968  
 4	葡萄变西瓜	http://www.wesane.com/game/974  
